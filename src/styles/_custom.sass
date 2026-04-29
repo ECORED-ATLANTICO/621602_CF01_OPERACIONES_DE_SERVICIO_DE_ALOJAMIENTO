@@ -553,6 +553,10 @@ a, button, div
 .bg-color-1
   background-color: #E9F8FC
 
+.bg-color-1-degrade
+  // #E9F8FC y #E3F1FA lineal vertical
+  background: linear-gradient(180deg, #E9F8FC 0%, #E3F1FA 100%)
+
 .bg-color-2
   background-color: #ABE5F3
 
@@ -942,99 +946,116 @@ a, button, div
 
 //   // 
 // // --- CITA DECORADA --- //
-.tarjeta-cita-fondo-2
-  position: relative
-  // background-image: url('../assets/curso/tema5/bg05.png')
-  background-size: cover
-  background-position: center
-  border-radius: 20px
-  min-height: 180px
-  @media (max-width: 991px)
-    padding-bottom: 210px !important
+// --- .cita-decorada ---
 
-.bloque-texto-b i
-  color: #9BAC1C !important
+.cita-decorada
 
-.tarjeta-cita-fondo
-  position: relative
-  // background-image: url('../assets/curso/tema1/bg-03.png')
-  background-size: cover
-  background-position: bottom
-  border-radius: 20px
-  min-height: 180px
-  @media (max-width: 991px)
-    padding-bottom: 135px !important
+  .cita-decorada__caja
+    background-size: 100% 100%
+    background-repeat: no-repeat
 
-/* Imagen flotante */
-.img-flotante-tema1
-  position: absolute
-  left: -5%
-  top: 50%
-  transform: translateY(-50%)
-  width: 43%
-  z-index: 2
-  @media (max-width: 1200px)
-    width: 40%
-  @media (max-width: 991px)
-    left: 50%
-    top: auto
-    bottom: -30px
-    transform: translateX(-50%)
-    width: 250px
+    [class*="cita-decorada__imagen-flotante"]
+    width: 100%
+    height: auto
 
-.img-flotante-tema3
-  position: absolute
-  left: 0%
-  top: 50%
-  transform: translateY(-50%)
-  width: 35%
-  z-index: 2
-  @media (max-width: 1200px)
-    width: 40%
-  @media (max-width: 991px)
-    left: 50%
-    top: auto
-    bottom: -30px
-    transform: translateX(-50%)
-    width: 250px
+    .cita-decorada__imagen-flotante-1
+      position: absolute
+      transform: translateY(-80px) translateX(30px)
+      z-index: 3
+      max-width: 185px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-90px) translateX(-20px)
+        max-width: 215px
 
-.img-flotante-tema2
-  position: absolute
-  right: -5%
-  bottom: -10px
-  width: 43%
-  z-index: 2
-  @media (max-width: 1200px)
-    width: 40%
-  @media (max-width: 991px)
-    right: auto
-    left: 50%
-    top: auto
-    bottom: -30px
-    transform: translateX(-50%)
-    width: 250px
+    .cita-decorada__imagen-flotante-2
+      transform: translateX(-55px)
+      min-width: 90px
+      margin: 0 auto
 
-.img-flotante-tema6
-  position: absolute
-  right: 5%
-  bottom: -10px
-  width: 25%
-  z-index: 2
-  @media (max-width: 1200px)
-    width: 30%
-  @media (max-width: 991px)
-    right: auto
-    left: 50%
-    top: auto
-    bottom: -30px
-    transform: translateX(-50%)
-    width: 200px
+    .cita-decorada__imagen-flotante-3
+      position: absolute
+      transform: translateY(-65px) translateX(45px)
+      z-index: 3
+      max-width: 135px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-80px) translateX(8px)
+        max-width: 145px
 
-/* Comillas */
-.bloque-texto-b__texto i
-  color: #8aa300
-  font-size: 22px
+    .cita-decorada__imagen-flotante-4
+      position: absolute
+      transform: translateY(-60px) translateX(45px)
+      z-index: 3
+      max-width: 135px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-80px) translateX(8px)
+        max-width: 145px
 
-.bloque-texto-b__texto h5
-  font-weight: 500
-  line-height: 1.5
+    .cita-decorada__imagen-flotante-5
+      position: absolute
+      transform: translateY(-67px) translateX(45px)
+      z-index: 3
+      max-width: 150px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-80px) translateX(8px)
+        max-width: 150px
+
+    .cita-decorada__imagen-flotante-6
+      position: absolute
+      transform: translateY(-127px) translateX(-10px)
+      z-index: 3
+      max-width: 300px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-90px) translateX(-5px)
+        max-width: 215px
+
+    .cita-decorada__imagen-flotante-7
+      position: absolute
+      transform: translateY(-145px) translateX(-10px)
+      z-index: 3
+      max-width: 300px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-90px) translateX(-5px)
+        max-width: 215px
+
+    .cita-decorada__imagen-flotante-8
+      position: absolute
+      transform: translateY(-109px) translateX(-25px)
+      z-index: 3
+      max-width: 330px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-70px) translateX(-15px)
+        max-width: 220px
+
+    .cita-decorada__imagen-flotante-9
+      position: absolute
+      transform: translateY(-130px) translateX(35px)
+      z-index: 3
+      max-width: 235px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-144px) translateX(-35px)
+        max-width: 270px
+
+    .cita-decorada__imagen-flotante-10
+      position: absolute
+      transform: translateY(-125px) translateX(75px)
+      z-index: 3
+      max-width: 133px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-144px) translateX(35px)
+        max-width: 150px
+
+  .cita-decorada__texto
+    position: relative
+    margin: 0
+    line-height: 1.6
+    font-size: 1rem
+    font-family: system-ui, sans-serif

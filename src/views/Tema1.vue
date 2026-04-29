@@ -69,19 +69,18 @@
   
 
     .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="fade-right")
-        .tarjeta.bg-color-1.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema1/img09.svg", alt="")
-            .col-lg-7.col-md-7.col-12.mb-3.mb-lg-0
-              p.mb-0 Lo invitamos a ver el siguiente video, el cual realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
-            .col-lg-3.col-md-3.col-12.text-center
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=hxF0S1s5ZxE" target="_blank")
-                span Ver video
-                i.fas.fa-video
-
+      .col-12.col-lg-10.mb-0.col-md-12
+        .cita-decorada
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-3.d-none.d-lg-block
+                img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-4")
+              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
+                p.mb-0 Lo invitamos a ver el siguiente video, el cual realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
+              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=hxF0S1s5ZxE" target="_blank")
+                  span Ver video
+                  i.fas.fa-play-circle
 
     separador
     
@@ -200,19 +199,19 @@
 
 
     .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="fade-right")
-        .tarjeta.bg-color-1.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema1/img17.svg", alt="")
-            .col-lg-7.col-md-7.col-12.mb-3.mb-lg-0
-              p.mb-0 Lo invitamos a leer las demás disposiciones que realiza la ley 300 de 1996 en Colombia, a través del enlace que se encuentra a continuación:
-            .col-lg-3.col-md-3.col-12.text-center
-              a.boton.color-acento-botones(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_0300_1996.html" target="_blank")
-                span Ver página
-                i.fas.fa-external-link-alt
-      
+      .col-12.col-lg-10.mb-0.col-md-12
+        .cita-decorada
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-3.d-none.d-lg-block
+                img(src="@/assets/curso/tema1/img17.svg", class="img-fluid cita-decorada__imagen-flotante-3")
+              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
+                p.mb-0 Lo invitamos a leer las demás disposiciones que realiza la ley 300 de 1996 en Colombia, a través del enlace que se encuentra a continuación:
+              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
+                a.boton.color-acento-botones(href="http://www.secretariasenado.gov.co/senado/basedoc/ley_0300_1996.html" target="_blank")
+                  span Ver página
+                  i.fas.fa-external-link-alt
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4.mb-lg-0
         .row.align-items-center
@@ -222,26 +221,24 @@
           .col-lg
             p.mb-0 Por su parte, la Resolución 657 de 2005 del Ministerio de Comercio, Industria y Turismo, reglamenta la categorización por estrellas de los establecimientos hoteleros o de hospedaje que prestan sus servicios en Colombia, disponiendo que sólo podrán ser categorizados por estrellas los establecimientos hoteleros o de hospedaje que en los términos del artículo 78 de la Ley 300 de 1996, se consideren como hoteles, según la definición de la norma técnica sectorial NTSH 006, para lo cual deben obtener el certificado de calidad turística, expedido por un organismo certificador debidamente acreditado por la Superintendencia de Industria y Comercio, que cuente con visto bueno de la Dirección de Turismo del Ministerio de Comercio, Industria y Turismo, sin cuya certificación no podrán utilizar en su publicidad la categorización por estrellas, so pena de ser sancionados.
 
-      .col-lg-2
+      .col-lg-2.col-md-8
         figure
           img(src="@/assets/curso/tema1/img19.png", alt="").mx-auto
 
 
-
     .row.justify-content-center.mb-5
-      .col-lg-10(data-aos="fade-right")
-        .tarjeta.bg-color-1.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema1/img20.svg", alt="")
-            .col-lg-7.col-md-7.col-12.mb-3.mb-lg-0
-              p.mb-0 Para profundizar sobre las disposiciones que realiza la Resolución 657 de 2005 en Colombia, lo invitamos a ingresar al enlace a continuación:
-            .col-lg-3.col-md-3.col-12.text-center
-              a.boton.color-acento-botones(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=16635" target="_blank")
-                span Ver página
-                i.fas.fa-external-link-alt
-
+      .col-12.col-lg-10.mb-0
+        .cita-decorada
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-3.d-none.d-lg-block
+                img(src="@/assets/curso/tema1/img20.svg", class="img-fluid cita-decorada__imagen-flotante-3")
+              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
+                p.mb-0 Para profundizar sobre las disposiciones que realiza la Resolución 657 de 2005 en Colombia, lo invitamos a ingresar al enlace a continuación:
+              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
+                a.boton.color-acento-botones(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=16635" target="_blank")
+                  span Ver página
+                  i.fas.fa-external-link-alt
 
     
     separador
@@ -250,7 +247,7 @@
       h2 1.3 Normas técnicas sectoriales hoteleras para establecimientos de alojamiento y hospedaje
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-md-12.mb-4.mb-lg-0
+      .col-lg-3.col-md-10.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img21.png", alt="").mx-auto
         
@@ -320,20 +317,18 @@
 
 
     .row.justify-content-center.mb-0
-      .col-lg-10(data-aos="fade-right")
-        .tarjeta.bg-color-1.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema1/img17.svg", alt="")
-            .col-lg-7.col-md-7.col-12.mb-3.mb-lg-0
-              p.mb-0 Lo invitamos a consultar en la sección de Anexos, el contenido completo de cada una de estas normas.
-            .col-lg-3.col-md-3.col-12.text-center
-              a.boton.color-acento-botones(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=16635" target="_blank")
-                span Ver página
-                i.fas.fa-external-link-alt
-
-
+      .col-12.col-lg-10.mb-0
+        .cita-decorada
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-3.d-none.d-lg-block
+                img(src="@/assets/curso/tema1/img17.svg", class="img-fluid cita-decorada__imagen-flotante-3")
+              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
+                p.mb-0 Lo invitamos a consultar en la sección de Anexos, el contenido completo de cada una de estas normas.
+              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
+                a.boton.color-acento-botones(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=16635" target="_blank")
+                  span Ver página
+                  i.fas.fa-external-link-alt
     
 </template>
 

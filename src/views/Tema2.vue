@@ -18,18 +18,19 @@
             p.mb-0 Un establecimiento de alojamiento u hospedaje se define como una unidad prestadora de servicios turísticos que ofrece estancia temporal a personas fuera de su lugar de residencia habitual, garantizando condiciones de descanso, seguridad y atención durante su permanencia. Estos establecimientos, que incluyen hoteles, hostales, apartahoteles y posadas, cumplen un papel fundamental en la cadena de valor del turismo, ya que facilitan la permanencia del visitante en un destino y contribuyen a la calidad de la experiencia turística. Además, el servicio de alojamiento no se limita al espacio físico, sino que integra procesos operativos, atención al cliente y servicios complementarios que responden a estándares definidos dentro del sector (Ministerio de Comercio, Industria y Turismo (MinCIT), 2017).
 
     .row.justify-content-center.mb-0
-      .col-lg-10(data-aos="fade-right")
-        .tarjeta.bg-color-1.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema2/img02.svg", alt="")
-            .col-lg-7.col-md-7.col-12.mb-3.mb-lg-0
-              p.mb-0 En el siguiente recurso podrá aprender qué es un establecimiento de alojamiento o de hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
-            .col-lg-3.col-md-3.col-12
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=fAg0gdOyEt4" target="_blank")
-                span Ver video
-                i.fas.fa-play-circle
+      .col-12.col-lg-10.mb-0
+        .cita-decorada
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-3.d-none.d-lg-block
+                img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-5")
+              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
+                p.mb-0 En el siguiente video podrá aprender qué es un establecimiento de alojamiento o de hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
+              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=fAg0gdOyEt4" target="_blank")
+                  span Ver video
+                  i.fas.fa-play-circle
+
 
     separador
 
@@ -37,7 +38,7 @@
       h2 2.1 Clasificación de hoteles
 
     .row.mb-4.justify-content-center.align-items-center
-      .col-lg-2.col-md-8.mb-4.mb-lg-0
+      .col-lg-2.col-md-8.mb-0.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/img03.png", alt="").mx-auto
       .col-lg-10.col-md-12
@@ -46,7 +47,7 @@
       
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.mb-3.mb-lg-0
+      .col-lg-9.mb-4.mb-lg-0
         .bg-fondo-4.px-5.py-4
           .col-11.col-md-12
             p.mb-0 Asimismo, la clasificación de los establecimientos de alojamiento también se relaciona con sistemas de categorización, como la asignación de estrellas para hoteles, que responde a estándares de calidad definidos en normas técnicas sectoriales como las NTSH. Estos criterios consideran aspectos como el confort de las instalaciones, la variedad de servicios, la atención al cliente y la gestión operativa del establecimiento. De esta manera, la categorización no solo orienta al huésped en la elección del servicio, sino que también impulsa a los prestadores a mejorar continuamente sus procesos y a cumplir con los requisitos establecidos para fortalecer la competitividad del sector turístico en el país (ICONTEC, 2015).
@@ -70,27 +71,28 @@
         figcaption <strong>Nota.</strong> SENA, (2026).
 
 
-    .row.justify-content-center.mb-0
-      .col-lg-10(data-aos="fade-right")
-        .tarjeta.bg-color-1.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema2/img02.svg", alt="")
-            .col-lg-7.col-md-7.col-12.mb-3.mb-lg-0
-              p.mb-0 Lo invitamos a consultar el siguiente video para ampliar su conocimiento sobre cómo se otorga la clasificación de estrellas a los hoteles:
-            .col-lg-3.col-md-3.col-12
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=oHZnQTBtnws" target="_blank")
-                span Ver video
-                i.fas.fa-play-circle
       
+    .row.justify-content-center.mb-4
+      .col-12.col-lg-10.mb-0
+        .cita-decorada
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-3.d-none.d-lg-block
+                img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-4")
+              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
+                p.mb-0 Lo invitamos a consultar el siguiente documento para ampliar su conocimiento sobre cómo se otorga la clasificación de estrellas a los hoteles:
+              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=oHZnQTBtnws" target="_blank")
+                  span Ver página
+                  i.fas.fa-external-link-alt
+    
     separador
     
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.2 Tipos de alojamiento y hospedajes
 
     .row.justify-content-center.mb-5
-      .col-lg-3.col-md-8.mb-lg-0.mb-3
+      .col-lg-3.col-md-8.mb-lg-0.mb-4
         figure
           img(src="@/assets/curso/tema2/img08.png", alt="").mx-auto
       .col-lg-9
@@ -98,19 +100,18 @@
 
 
     .row.justify-content-center.mb-0
-      .col-lg-10(data-aos="fade-right")
-        .tarjeta.bg-color-1.p-4
-          .row.justify-content-around.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema1/img17.svg", alt="")
-            .col-lg-7.col-md-7.col-12.mb-3.mb-lg-0
-              p.mb-0 Lo invitamos a consultar el siguiente PDF anexo para conocer a detalle cuáles son los tipos de alojamiento y hospedajes y algunas otras clasificaciones.
-            .col-lg-3.col-md-3.col-12
-              a.boton.color-acento-botones.mb-0(href="" target="_blank")
-                span Ver PDF
-                i.fas.fa-file-download
-      
+      .col-12.col-lg-10.mb-0
+        .cita-decorada
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-3.d-none.d-lg-block
+                img(src="@/assets/curso/tema1/img17.svg", class="img-fluid cita-decorada__imagen-flotante-3")
+              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
+                p.mb-0 Lo invitamos a consultar el siguiente PDF anexo para conocer a detalle cuáles son los tipos de alojamiento y hospedajes y algunas otras clasificaciones.
+              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
+                a.boton.color-acento-botones(href="" target="_blank")
+                  span Ver PDF
+                  i.fas.fa-file-download
     
         
     

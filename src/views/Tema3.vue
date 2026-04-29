@@ -7,8 +7,8 @@
         span 3
       h1 Habitaciones hoteleras
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-md-8
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-3.col-md-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/img01.png", alt="").mx-auto
       .col-lg-9.mb-3.mb-lg-0
@@ -131,12 +131,12 @@
       h2 3.2. Servicios complementarios
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-9.mb-3.mb-lg-0
+      .col-lg-9.mb-4.mb-lg-0
         p.mb-3(data-aos="fade-right") Los servicios complementarios en los establecimientos hoteleros hacen referencia al conjunto de prestaciones adicionales que acompañan el servicio básico de alojamiento y que tienen como propósito mejorar la experiencia del huésped, incrementar el valor percibido del servicio y fortalecer la competitividad del establecimiento. Estos servicios no constituyen el núcleo principal de la actividad hotelera, pero sí representan un elemento estratégico en la diferenciación del producto, la satisfacción del cliente y la fidelización, especialmente en un contexto de alta competencia dentro del sector turístico.
         p.mb-3(data-aos="fade-right") Desde un enfoque técnico profesional, los servicios complementarios deben entenderse como parte integral del portafolio de servicios del hotel, ya que su adecuada gestión implica planificación, coordinación interdepartamental, aplicación de protocolos y control de calidad. No se trata únicamente de ofrecer servicios adicionales, sino de garantizar que estos se presten conforme a estándares definidos, en coherencia con la categoría del hotel, el perfil del cliente y la normativa vigente. En este sentido, el desempeño del talento humano resulta determinante para asegurar que los servicios complementarios aporten valor real a la experiencia del huésped.
         p.mb-0 Se consideran servicios complementarios los siguientes:
 
-      .col-lg-3
+      .col-lg-3.col-md-8
         figure
           img(src="@/assets/curso/tema3/img16.png", data-aos="zoom-in")
 
@@ -146,56 +146,56 @@
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img17.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Recepción y atención permanente.
       .col-lg-3.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img18.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Limpieza periódica del alojamiento.
       .col-lg-3.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img19.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Cambio periódico de ropa de cama.
       .col-lg-3.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img20.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Cambio periódico de toallas.
       .col-lg-3.mb-3.mb-lg-3.h-100
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img21.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Cajilla de seguridad.
       .col-lg-3.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img22.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Servicios de restaurante y room service.
       .col-lg-3.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img23.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Salones de eventos.
       .col-lg-3.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img24.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Locales comerciales.
 
@@ -203,7 +203,7 @@
         .tarjeta-avatar-b.align-items-center(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img25.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Prestación de servicios adicionales como: lavandería, custodia de maletas, prensa, etc.
     
@@ -304,7 +304,7 @@
       h2 3.3 Convenciones
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.mb-4.mb-lg-0.col-md-10
         img(src='@/assets/curso/tema3/img27.png' alt='Texto explicativo')
       .col-lg-9
         p.mb-0 Las convenciones son reglas o lineamientos simbólicos que permiten representar información de manera clara y estandarizada, con el fin de evitar confusiones y facilitar la interpretación de datos dentro de un determinado contexto. Aunque su origen se asocia al diseño cartográfico, en el sector hotelero las convenciones cumplen una función similar, ya que se utilizan para organizar, identificar y comunicar de forma ágil información clave relacionada con la operación del establecimiento, especialmente en áreas como recepción, reservas y alojamiento.
@@ -323,82 +323,82 @@
 
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-auto
+      .col-lg-2.d-none.d-lg-flex
         figure
           img(src='@/assets/curso/tema3/img29.png' alt='Texto explicativo')
-      .col-lg
-        .row.mb-5
-          .col-lg-2.mb-3.mb-lg-3
+      .col-lg-10
+        .row.justify-content-center
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
-                  p.mb-0 CL o C = Cliente.
-          .col-lg-2.mb-3.mb-lg-3
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
+                  p.mb-0 CL o C = <br>Cliente.
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
                   p.mb-0 L = Libre.
-          .col-lg-2.mb-3.mb-lg-3
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
                   p.mb-0 S = Salida.
-          .col-lg-2.mb-3.mb-lg-3
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
                   p.mb-0 E = Entrada.
-          .col-lg-2.mb-3.mb-lg-3
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
-                  p.mb-0 BQ = Bloqueada.
-        .row.mb-5
-          .col-lg-2.mb-3.mb-lg-3
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
+                  p.mb-0 BQ = <br>Bloqueada.
+        .row.justify-content-center
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
-                  p.mb-0 R = Repaso / Para revisar.
-          .col-lg-2.mb-3.mb-lg-3
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
+                  p.mb-0 R = <br>Repaso / <br>Para revisar.
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
-                  p.mb-0 VIP = Very important person / People.
-          .col-lg-2.mb-3.mb-lg-3
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
+                  p.mb-0 VIP = Very <br>important <br>person / People.
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
-                  p.mb-0 DND = Do not disturb.
-          .col-lg-2.mb-3.mb-lg-3
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
+                  p.mb-0 DND = <br>Do not <br>disturb.
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
                   p.mb-0 CU = Cuna.
-          .col-lg-2.mb-3.mb-lg-3
+          .col-lg.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
-              .tarjeta.tarjeta--azul
-                .p-3
-                  p.mb-0 CEx – Cama extra.
+              .tarjeta.bg-color-5.align-content-center
+                .p-2
+                  p.mb-0 CEx = <br>Cama extra.
 
 
 

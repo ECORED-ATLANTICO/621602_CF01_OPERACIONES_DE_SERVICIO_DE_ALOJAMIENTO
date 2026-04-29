@@ -27,15 +27,15 @@
       h2 4.1 Principios de la organización hotelera
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-9
-        p.mb-3 La estructura organizacional de un hotel se fundamenta en principios administrativos como la especialización del trabajo, la jerarquía, la coordinación y la estandarización de procesos. Cada área cumple funciones específicas, pero interdependientes, lo que exige una comunicación permanente y efectiva entre los departamentos. A diferencia de otros tipos de empresas, el hotel opera de manera continua, generalmente durante las 24 horas del día, lo que demanda una organización basada en turnos operativos, relevos de personal y procedimientos claramente definidos para garantizar la continuidad del servicio.
+      .col-lg-9.mb-4.mb-lg-0
+        p.mb-4.mb-lg-3 La estructura organizacional de un hotel se fundamenta en principios administrativos como la especialización del trabajo, la jerarquía, la coordinación y la estandarización de procesos. Cada área cumple funciones específicas, pero interdependientes, lo que exige una comunicación permanente y efectiva entre los departamentos. A diferencia de otros tipos de empresas, el hotel opera de manera continua, generalmente durante las 24 horas del día, lo que demanda una organización basada en turnos operativos, relevos de personal y procedimientos claramente definidos para garantizar la continuidad del servicio.
       
         
         .bg-fondo-4.px-5.py-4.br-15.mb-0
           .col-lg-11.col-md-12
             p.mb-0 El grado de complejidad de la estructura organizacional está directamente relacionado con el tamaño y la categoría del hotel. Un establecimiento pequeño puede operar con una estructura simplificada, donde una misma persona asume varias funciones, mientras que un hotel de mayor categoría requiere una estructura más especializada, con cargos definidos, manuales de funciones y procesos claramente documentados. En ambos casos, el objetivo es el mismo: asegurar un servicio eficiente, seguro y alineado con los estándares de calidad. 
             
-      .col-lg-3
+      .col-lg-3.col-md-8
         figure
           img(src="@/assets/curso/tema4/img03.png", data-aos="zoom-in")
 
@@ -92,7 +92,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
      
-      .col-lg-3
+      .col-lg-3.col-md-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema4/img08.png", data-aos="zoom-in")
       .col-lg-9
@@ -117,21 +117,21 @@
         figcaption <strong>Nota.</strong> SENA, (2026).
 
     .row.mb-4.justify-content-center.align-items-center
-      .col-lg-9
+      .col-lg-9.mb-4.mb-lg-0
         p.mb-3 Los puestos de trabajo y los procesos están sometidos a una reglamentación y estandarización los cuales son respaldados por manuales de funciones y procesos.
         p.mb-0 Son guías y orientaciones para desarrollar las rutinas o labores cotidianas de cada uno de los trabajadores quienes podrán tomar las decisiones más acertadas apoyadas por las directrices de los superiores, y estableciendo con claridad la responsabilidad y las obligaciones que cada uno de los cargos conlleva. Incluye brevemente cada una de las funciones y responsabilidades básicas describiendo adecuadamente los límites y la esencia del cargo.
-      .col-lg-3
+      .col-lg-3.col-md-12
         figure
           img(src="@/assets/curso/tema4/img13.png", alt="").mx-auto
 
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       
-      .col-lg-3.col-md-8
+      .col-lg-3.col-md-8.order-2.order-lg-1
         figure
           img(src="@/assets/curso/tema4/img14.png", alt="").mx-auto
 
-      .col-lg-9.mb-3
+      .col-lg-9.mb-3.order-1.order-lg-2
         .bg-fondo-6.px-5.py-4.br-15.mb-3
           .col-11.col-md-12
             .row.justify-content-center.align-items-center
