@@ -10,7 +10,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        .bloque-texto-g.bloque-texto-g--inverso.bg-color-1.p-3.p-sm-4.p-md-5.mb-4
+        .bloque-texto-g.bloque-texto-g--inverso.bg-color-5.p-3.p-sm-4.p-md-5.mb-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.png')})`}"
           )
@@ -70,6 +70,49 @@
         figcaption <strong>Nota.</strong> SENA, (2026).
 
 
+    .row.justify-content-center.mb-0
+      .col-lg-10(data-aos="fade-right")
+        .tarjeta.bg-color-1.p-4
+          .row.justify-content-around.align-items-center
+            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+              figure
+                img(src="@/assets/curso/tema2/img02.svg", alt="")
+            .col-lg-7.col-md-7.col-12.mb-3.mb-lg-0
+              p.mb-0 Lo invitamos a consultar el siguiente video para ampliar su conocimiento sobre cómo se otorga la clasificación de estrellas a los hoteles:
+            .col-lg-3.col-md-3.col-12
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=oHZnQTBtnws" target="_blank")
+                span Ver video
+                i.fas.fa-play-circle
+      
+    separador
+    
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.2 Tipos de alojamiento y hospedajes
+
+    .row.justify-content-center.mb-5
+      .col-lg-3.col-md-8.mb-lg-0.mb-3
+        figure
+          img(src="@/assets/curso/tema2/img08.png", alt="").mx-auto
+      .col-lg-9
+        p.mb-0 Los tipos de alojamiento y hospedaje comprenden una diversidad de modalidades diseñadas para satisfacer las diferentes necesidades de los viajeros, considerando factores como el tiempo de permanencia, el nivel de servicio, el entorno y las características del cliente. En este sentido, existen alternativas que van desde hoteles y apartahoteles hasta alojamientos rurales, viviendas turísticas, hostales, posadas y recintos de campamento, cada uno con particularidades en su infraestructura, servicios y forma de operación. Esta diversidad permite adaptar la oferta del sector a distintos contextos, desde entornos urbanos hasta espacios naturales, integrando no solo el servicio de hospedaje, sino también experiencias complementarias que enriquecen la estancia del usuario.
+
+
+    .row.justify-content-center.mb-0
+      .col-lg-10(data-aos="fade-right")
+        .tarjeta.bg-color-1.p-4
+          .row.justify-content-around.align-items-center
+            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+              figure
+                img(src="@/assets/curso/tema1/img17.svg", alt="")
+            .col-lg-7.col-md-7.col-12.mb-3.mb-lg-0
+              p.mb-0 Lo invitamos a consultar el siguiente PDF anexo para conocer a detalle cuáles son los tipos de alojamiento y hospedajes y algunas otras clasificaciones.
+            .col-lg-3.col-md-3.col-12
+              a.boton.color-acento-botones.mb-0(href="" target="_blank")
+                span Ver PDF
+                i.fas.fa-file-download
+      
+    
+        
     
 </template>
 

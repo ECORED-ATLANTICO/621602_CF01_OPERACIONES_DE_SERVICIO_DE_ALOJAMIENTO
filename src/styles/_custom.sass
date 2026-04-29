@@ -83,7 +83,7 @@ figcaption
   @media screen and ( max-width: $bp-max-sm )
     min-width: auto
 .tarjeta--azul
-  background-color: #DBF8F6
+  background-color: #F4ECE4
 
 //////////CUSTOM TARJETA AVATAR TOP////////////
 .tarjeta-avatar
@@ -174,7 +174,7 @@ figcaption
 
 // Background Images
 .bg01
-  // background: url("../assets/curso/tema1/img17.png")
+  background: url("../assets/curso/tema3/img10.png")
   background-position: bottom
   background-size: contain
 
@@ -205,6 +205,16 @@ figcaption
 
 .bg-fondo-4
   background-image: url("../assets/curso/tema2/img04.png") !important
+  background-position: center
+  background-size: cover
+
+.bg-fondo-5
+  background-image: url("../assets/curso/tema4/img09.png") !important
+  background-position: center
+  background-size: cover
+
+.bg-fondo-6
+  background-image: url("../assets/curso/tema4/img15.png") !important
   background-position: center
   background-size: cover
 
@@ -333,6 +343,32 @@ figcaption
         flex: 0 0 auto
         width: 55%
 
+.tabs-a.tabs_x3
+  .tarjeta
+    height: auto
+  @media (min-width: 992px)
+    & > .row > .col-lg-4, & > .row > .col-xl-3
+      flex: 0 0 auto !important
+      width: 20% !important
+    & > .row > .col-lg-8, & > .row > .col-xl-9
+      flex: 0 0 auto !important
+      width: 80% !important
+  @media (max-width: 768px)
+    & > .row > .col-lg-4, & > .row > .col-lg-8
+      width: 100% !important
+
+// .tabs-a.row_x1
+//   @media (min-width: 992px)
+//     & > .row > .col-lg-4, & > .row > .col-xl-3
+//       flex: 0 0 auto !important
+//       width: 40% !important
+//     & > .row > .col-lg-8, & > .row > .col-xl-9
+//       flex: 0 0 auto !important
+//       width: 60% !important
+//   @media (max-width: 768px)
+//     & > .row > .col-lg-4, & > .row > .col-lg-8
+//       width: 100% !important
+
 // Tabs C
 .tabs-c__tab
   border-top: 4px solid #EBF4FF
@@ -426,7 +462,7 @@ figcaption
     height: 35px
     width: 35px
     max-width: 35px
-    background-color: $color-acento-botones
+    background-color: #FF7E5D
     border-radius: 50%
     padding: 0 !important
     margin: 0 auto
@@ -527,7 +563,7 @@ a, button, div
   color: #9EC9FF !important
 
 .bg-color-5
-  background-color: #EEF6FF
+  background-color: #F4ECE4
 
 .bg-color-6
   background-color: #EDF3BC
