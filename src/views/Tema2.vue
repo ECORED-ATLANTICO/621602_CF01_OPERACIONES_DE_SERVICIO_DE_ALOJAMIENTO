@@ -22,7 +22,7 @@
         .cita-decorada
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.d-none.d-lg-block
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-5")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 En el siguiente video podrá aprender qué es un establecimiento de alojamiento o de hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
@@ -55,7 +55,10 @@
         figure
           img(src="@/assets/curso/tema2/img05.png", alt="").mx-auto
 
-    p.mb-5 En la infografía a continuación, se describen los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas de los diferentes establecimientos de alojamiento y hospedaje.
+   
+    .row.align-items-center.mb-5
+      .col-12.col-lg-9.mb-4.mb-lg-0
+        p.mb-0 En la infografía a continuación, se describen los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas de los diferentes establecimientos de alojamiento y hospedaje.
 
     //- figura
     
@@ -77,7 +80,7 @@
         .cita-decorada
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.d-none.d-lg-block
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-4")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 Lo invitamos a consultar el siguiente documento para ampliar su conocimiento sobre cómo se otorga la clasificación de estrellas a los hoteles:
@@ -104,7 +107,7 @@
         .cita-decorada
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.d-none.d-lg-block
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/img17.svg", class="img-fluid cita-decorada__imagen-flotante-3")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 Lo invitamos a consultar el siguiente PDF anexo para conocer a detalle cuáles son los tipos de alojamiento y hospedajes y algunas otras clasificaciones.

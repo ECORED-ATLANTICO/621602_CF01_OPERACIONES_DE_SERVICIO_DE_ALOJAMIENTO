@@ -30,7 +30,7 @@
         TabsA.tabs_x3.color-acento-botones()
           .tarjeta.color-acento-botones--borde.p-4(titulo="Individual:")
             .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12
+              .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación asignada a una persona. Las medidas de las camas individuales pueden ser: 90 centímetros de ancho por 190 de largo.
                 p.mb-0 Acomodación: puede tener una o más camas pero solo es ocupada por una persona.
               .col-lg-4.col-md-8
@@ -38,7 +38,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Doble:")
             .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12
+              .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación asignada a dos personas. Las medidas de las camas dobles pueden ser: 140 centímetros de ancho por 190 de largo.
                 p.mb-0 Acomodación: puede tener una o más camas.
               .col-lg-4.col-md-8
@@ -46,7 +46,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Triple:")
             .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12
+              .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación asignada a tres personas.
                 p.mb-0 Acomodación: puede tener dos o más camas.
               .col-lg-4.col-md-8
@@ -54,7 +54,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Queen:")
             .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12
+              .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación con una cama de matrimonio. Las medidas de las camas Queen Size son 1,5 metros de ancho por 2 metros de largo.
                 p.mb-0 Acomodación: puede ser ocupado por una o más personas.
               .col-lg-4.col-md-8
@@ -62,7 +62,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="King:")
             .row.justify-content-center.align-items-center
-              .col-lg-8.col-md-12
+              .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación con una cama King Size. las medidas de las camas King Size son de 2 metros de ancho x 2 metros de largo.
                 p.mb-0 Acomodación: puede ser ocupado por una o más personas.
               .col-lg-4.col-md-8
@@ -101,28 +101,28 @@
               p.text-center.mb-0 <b>Acomodación</b>: por su tamaño generalmente puede ser ocupada por dos, máximo tres personas.
 
     .container
-      .row.mb-5.bg-fondo-4.br-15
+      .row.mb-5.bg-fondo-4.br-15.justify-content-center.p-3.p-lg-2
         .p-4
           h4.mb-2 Otros tipos de habitaciones pueden incluir: 
         .col-lg-5.col-md-6.mb-3.mb-lg-4
-          .row.h-100.align-items-center
-            .col-auto
+          .row
+            .col-12.col-lg-12.col-xl-auto.mx-auto
               figure
-                img(src="@/assets/curso/tema3/img13.png", alt="").mx-auto
+                img(src="@/assets/curso/tema3/img13.png", alt="" style="width: 110px;").mx-auto
             .col-lg
               p.mb-0 <b>Habitaciones comunicadas:</b> habitaciones con puertas de entrada individuales desde el exterior y una puerta de conexión entre ellas. Los huéspedes pueden moverse entre habitaciones sin pasar por el pasillo. 
         .col-lg-4.col-md-6.mb-3.mb-lg-4
-          .row.h-100.align-items-center
-            .col-auto
+          .row
+            .col-12.col-lg-12.col-xl-auto.mx-auto
               figure
-                img(src="@/assets/curso/tema3/img14.png", alt="").mx-auto
+                img(src="@/assets/curso/tema3/img14.png", alt="" style="width: 110px;").mx-auto
             .col-lg
               p.mb-0 <b>Habitaciones contiguas</b>: habitaciones con una pared común, pero sin puerta de conexión.
         .col-lg-3.col-md-6.mb-3.mb-lg-4
-          .row.h-100.align-items-center
-            .col-auto
+          .row
+            .col-12.col-lg-12.col-xl-auto.mx-auto
               figure
-                img(src="@/assets/curso/tema3/img15.png", alt="").mx-auto
+                img(src="@/assets/curso/tema3/img15.png", alt="", style="width: 110px;").mx-auto
             .col-lg
               p.mb-0 <b>Habitaciones adyacentes</b>: habitaciones cercanas, tal vez al otro lado del pasillo. 
 
@@ -142,56 +142,56 @@
 
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-3.mb-3.mb-lg-3.h-100
+      .col-lg-3.mb-3.mb-lg-3.h-100.col-md-6.col-sm-12
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img17.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Recepción y atención permanente.
-      .col-lg-3.mb-3.mb-lg-3
+      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img18.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Limpieza periódica del alojamiento.
-      .col-lg-3.mb-3.mb-lg-3
+      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img19.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Cambio periódico de ropa de cama.
-      .col-lg-3.mb-3.mb-lg-3
+      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img20.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Cambio periódico de toallas.
-      .col-lg-3.mb-3.mb-lg-3.h-100
+      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12.h-100
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img21.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Cajilla de seguridad.
-      .col-lg-3.mb-3.mb-lg-3
+      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img22.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Servicios de restaurante y room service.
-      .col-lg-3.mb-3.mb-lg-3
+      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img23.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0 Salones de eventos.
-      .col-lg-3.mb-3.mb-lg-3
+      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
         .tarjeta-avatar-b(data-aos="zoom-in")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img24.png' alt='AvatarTop')

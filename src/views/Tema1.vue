@@ -73,7 +73,7 @@
         .cita-decorada
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.d-none.d-lg-block
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-4")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 Lo invitamos a ver el siguiente video, el cual realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
@@ -91,13 +91,13 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.mb-3
         p.mb-3 La formalización hotelera constituye un eje fundamental para el desarrollo ordenado, seguro y competitivo de la industria de alojamiento. Hace referencia al conjunto de disposiciones legales, técnicas y administrativas que regulan la creación, operación y control de los establecimientos de alojamiento y hospedaje, con el propósito de garantizar la calidad del servicio, la protección del usuario y el cumplimiento de las obligaciones del prestador frente al Estado. En este sentido, la formalización no debe entenderse únicamente como un requisito legal, sino como un elemento estratégico que fortalece la sostenibilidad y la credibilidad del sector hotelero.
-        .bg-fondo-3.px-5.py-4
+        .bg-fondo-3.px-lg-5.py-lg-4.px-4.py-3
           .col-11.col-md-12
             .row.justify-content-center.align-items-center
               .col-auto.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/tema1/img10.svg", alt="").mx-auto
-              .col
+              .col-lg.col-md-12
                 p.mb-0 Desde una perspectiva técnico profesional, la normativa hotelera proporciona el marco de actuación dentro del cual se desarrollan los procesos operativos, administrativos y de servicio. El conocimiento y la correcta aplicación de estas disposiciones permiten al talento humano comprender las condiciones bajo las cuales opera el establecimiento, identificar responsabilidades y participar activamente en el cumplimiento de los procedimientos técnicos y los protocolos establecidos. Asimismo, la normativa orienta la estandarización de los servicios y contribuye a la mejora continua de la calidad en la atención al huésped.
 
       .col-lg-3.col-md-8
@@ -121,6 +121,7 @@
           h5 
             b Figura 1.
           span Ley 300 de 1996, aspectos fundamentales 
+      .col-md-10.col-lg-12
         figure.mb-0
           img.mb-3(src="@/assets/curso/tema1/img14.png", alt="Ecoturismo. - Etnoturismo. - Agroturismo. - Turismo metropolitano. - Turismo de interés social. - Mercadeo y promoción del turismo y cooperación turística internacional. - Incentivos tributarios para el fomento de la actividad turística. - Fondo de promoción turística. - Corporación Nacional de Turismo. - Registro Nacional de Turismo. - Derechos y obligaciones de los usuarios, control y sanciones.").d-none.d-lg-block
           img.mb-3(src="@/assets/curso/tema1/img15.png", alt="Ecoturismo. - Etnoturismo. - Agroturismo. - Turismo metropolitano. - Turismo de interés social. - Mercadeo y promoción del turismo y cooperación turística internacional. Incentivos tributarios para el fomento de la actividad turística. Fondo de promoción turística. Corporación Nacional de Turismo. Registro Nacional de Turismo. Derechos y obligaciones de los usuarios, control y sanciones.").d-block.d-lg-none
@@ -149,7 +150,7 @@
           span Aspectos principales de la Ley 300 de 1996
         .tabla-a.color-acento-contenido 
           table
-            caption Nota. SENA, (2026).
+            caption Nota. <span style="font-weight: normal">SENA, (2026).</span>
             thead
               tr
                 th Aspecto
@@ -203,7 +204,7 @@
         .cita-decorada
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.d-none.d-lg-block
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/img17.svg", class="img-fluid cita-decorada__imagen-flotante-3")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 Lo invitamos a leer las demás disposiciones que realiza la ley 300 de 1996 en Colombia, a través del enlace que se encuentra a continuación:
@@ -231,7 +232,7 @@
         .cita-decorada
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.d-none.d-lg-block
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/img20.svg", class="img-fluid cita-decorada__imagen-flotante-3")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 Para profundizar sobre las disposiciones que realiza la Resolución 657 de 2005 en Colombia, lo invitamos a ingresar al enlace a continuación:
@@ -321,7 +322,7 @@
         .cita-decorada
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.d-none.d-lg-block
+              .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/img17.svg", class="img-fluid cita-decorada__imagen-flotante-3")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 Lo invitamos a consultar en la sección de Anexos, el contenido completo de cada una de estas normas.

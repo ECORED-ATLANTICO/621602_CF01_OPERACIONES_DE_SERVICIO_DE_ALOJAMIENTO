@@ -8,7 +8,7 @@
       h1 Estructura organizacional
 
 
-    .bg-full-width.bg-fondo-1.px-4.py-3
+    .bg-full-width.bg-fondo-1.px-5.py-4
       img(src="@/assets/curso/tema4/img01.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-11(data-aos="fade-right")
@@ -116,13 +116,20 @@
           img.mb-3(src="@/assets/curso/tema4/img12.png", alt="La figura tres muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero.").d-block.d-lg-none
         figcaption <strong>Nota.</strong> SENA, (2026).
 
+    .container
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema4/img18.png")
+          h3.titulo-con-imagen__texto Gráficamente los organigramas mantienen la siguiente forma:
+
+
     .row.mb-4.justify-content-center.align-items-center
       .col-lg-9.mb-4.mb-lg-0
         p.mb-3 Los puestos de trabajo y los procesos están sometidos a una reglamentación y estandarización los cuales son respaldados por manuales de funciones y procesos.
         p.mb-0 Son guías y orientaciones para desarrollar las rutinas o labores cotidianas de cada uno de los trabajadores quienes podrán tomar las decisiones más acertadas apoyadas por las directrices de los superiores, y estableciendo con claridad la responsabilidad y las obligaciones que cada uno de los cargos conlleva. Incluye brevemente cada una de las funciones y responsabilidades básicas describiendo adecuadamente los límites y la esencia del cargo.
       .col-lg-3.col-md-12
         figure
-          img(src="@/assets/curso/tema4/img13.png", alt="").mx-auto
+          img(src="@/assets/curso/tema4/img13.svg", alt="").mx-auto
 
     
     .row.justify-content-center.align-items-center.mb-3
