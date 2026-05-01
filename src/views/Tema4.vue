@@ -31,7 +31,7 @@
         p.mb-4.mb-lg-3 La estructura organizacional de un hotel se fundamenta en principios administrativos como la especialización del trabajo, la jerarquía, la coordinación y la estandarización de procesos. Cada área cumple funciones específicas, pero interdependientes, lo que exige una comunicación permanente y efectiva entre los departamentos. A diferencia de otros tipos de empresas, el hotel opera de manera continua, generalmente durante las 24 horas del día, lo que demanda una organización basada en turnos operativos, relevos de personal y procedimientos claramente definidos para garantizar la continuidad del servicio.
       
         
-        .bg-fondo-4.px-5.py-4.br-15.mb-0
+        .bg-fondo-4.px-lg-5.py-lg-4.px-4.py-3.br-15.mb-0
           .col-lg-11.col-md-12
             p.mb-0 El grado de complejidad de la estructura organizacional está directamente relacionado con el tamaño y la categoría del hotel. Un establecimiento pequeño puede operar con una estructura simplificada, donde una misma persona asume varias funciones, mientras que un hotel de mayor categoría requiere una estructura más especializada, con cargos definidos, manuales de funciones y procesos claramente documentados. En ambos casos, el objetivo es el mismo: asegurar un servicio eficiente, seguro y alineado con los estándares de calidad. 
             
@@ -98,7 +98,7 @@
       .col-lg-9
         p.mb-3 La representación gráfica de la estructura organizacional del hotel se realiza a través del organigrama, el cual permite visualizar la jerarquía, las líneas de autoridad y la relación entre los diferentes cargos y departamentos. El organigrama es una herramienta clave para la gestión administrativa, ya que facilita la comprensión de las funciones, los niveles de responsabilidad y los canales de comunicación interna.
         
-        .bg-fondo-5.px-5.py-4.br-15.mb-3
+        .bg-fondo-5.px-lg-5.py-lg-4.px-4.py-3.br-15.mb-3
           .col-lg-11.col-md-12
             p.mb-0 En el contexto de la formación técnico profesional, el análisis del organigrama permite al aprendiz reconocer su rol dentro de la organización, identificar a quién debe reportar y comprender cómo su desempeño incide en el cumplimiento de los objetivos del hotel. 
 
@@ -139,7 +139,7 @@
           img(src="@/assets/curso/tema4/img14.png", alt="").mx-auto
 
       .col-lg-9.mb-3.order-1.order-lg-2
-        .bg-fondo-6.px-5.py-4.br-15.mb-3
+        .bg-fondo-6.px-lg-5.py-lg-4.px-4.py-3.br-15.mb-3
           .col-11.col-md-12
             .row.justify-content-center.align-items-center
               .col-auto.d-none.d-lg-block

@@ -11,7 +11,7 @@
       .col-lg-9.col-md-12
         p.mb-3 El componente formativo Introducción a la industria hotelera aborda los conceptos fundamentales del sector de alojamiento y hospedaje, permitiendo al aprendiz comprender la evolución, la estructura y las características de los establecimientos hoteleros dentro del contexto turístico. A través del estudio de la clasificación de los hoteles, el portafolio de servicios, los tipos de habitaciones y los servicios complementarios, se proporciona una base teórica orientada a la identificación de las necesidades del cliente y a la correcta oferta de servicios de acuerdo con el tipo de establecimiento y los protocolos establecidos.
 
-        .bg-fondo-3.px-5.py-4.br-15.mb-0
+        .bg-fondo-3.px-lg-5.py-lg-4.px-4.py-3.br-15.mb-0
           .col-lg-11.col-md-12
             p.mb-0 Asimismo, el componente enfatiza la importancia de los procedimientos operativos y del uso de convenciones y terminología propia del sector hotelero como herramientas para la gestión eficiente de la información en áreas como recepción y reservas. Estos conocimientos fortalecen las competencias del aprendiz para interactuar de manera organizada y precisa en el entorno laboral, favoreciendo la atención al cliente, la aplicación de protocolos de servicio y el cumplimiento de los procedimientos técnicos que sustentan la prestación del servicio de alojamiento en un contexto técnico profesional.
 

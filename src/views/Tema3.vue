@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/tema3/img01.png", alt="").mx-auto
       .col-lg-9.mb-3.mb-lg-0
-        .bg-fondo-4.px-5.py-4
+        .bg-fondo-4.px-lg-5.py-lg-4.px-4.py-3
           .col-lg-11.col-md-12
             p.mb-0 Dentro de la Norma técnica sectorial colombiana NTSH006, se deben considerar los siguientes aspectos en las habitaciones: seguridad, dimensiones en donde se incluye el baño y closet, muebles, conexiones eléctricas, ropa de cama, piso, ventanas, iluminación, baños y sus componentes, entre otros, ducha, toallas y presión del agua, esto define la clasificación que se le da a cada una de las habitaciones y permite la siguiente tipología:
 
@@ -23,10 +23,7 @@
     p.mb-4 A continuación, se describen cuáles son los diferentes tipos de habitaciones y acomodación.
     
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-8.col-lg-3.mb-4.mb-lg-0.order-lg-2
-        figure
-          img(src="@/assets/curso/tema3/img08.png").mx-auto
-      .col-lg-9.order-lg-1
+      .col-lg-12.col-xl-9.order-1.order-lg-2.order-xl-1.order-md-2
         TabsA.tabs_x3.color-acento-botones()
           .tarjeta.color-acento-botones--borde.p-4(titulo="Individual:")
             .row.justify-content-center.align-items-center
@@ -67,13 +64,16 @@
                 p.mb-0 Acomodación: puede ser ocupado por una o más personas.
               .col-lg-4.col-md-8
                 img(src="@/assets/curso/tema3/img07.png", alt="").mx-auto
-                
+            
+      .col-md-8.col-lg-6.col-xl-3.mb-4.mb-lg-3.mb-xl-0.order-2.order-lg-1.order-xl-2.order-md-1
+        figure
+          img(src="@/assets/curso/tema3/img08.png").mx-auto    
 
     .row.justify-content-center.mb-5.align-items-center
-      .col-lg-4.col-md-6.col-8.mb-4.mb-lg-0
+      .col-lg-4.col-md-6.col-8.mb-4.mb-lg-0.order-1.order-md-2.order-lg-1.order-xl-1
         figure
           img(src="@/assets/curso/tema3/img09.png", alt="").mx-auto
-      .col-md-12.col-lg-8
+      .col-md-12.col-lg-8.order-2.order-md-1.mb-4.mb-lg-0.order-lg-2.order-xl-2
         SlyderF(columnas="col-lg-6 col-xl-6")
           .tarjeta.bg01.p-4
             .row.justify-content-center.mb-3
@@ -141,77 +141,78 @@
           img(src="@/assets/curso/tema3/img16.png", data-aos="zoom-in")
 
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-3.mb-3.mb-lg-3.h-100.col-md-6.col-sm-12
-        .tarjeta-avatar-b(data-aos="zoom-in")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img17.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.align-content-center
-            .p-3
-              p.mb-0 Recepción y atención permanente.
+    .row.mb-5.justify-content-center
       .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
-        .tarjeta-avatar-b(data-aos="zoom-in")
+        .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img18.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img17.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
-              p.mb-0 Limpieza periódica del alojamiento.
+              p.mb-0.text-bold Recepción y atención permanente.
       .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
-        .tarjeta-avatar-b(data-aos="zoom-in")
+        .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img19.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img18.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
-              p.mb-0 Cambio periódico de ropa de cama.
+              p.mb-0.text-bold Limpieza periódica del alojamiento.
       .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
-        .tarjeta-avatar-b(data-aos="zoom-in")
+        .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img20.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img19.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
-              p.mb-0 Cambio periódico de toallas.
-      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12.h-100
-        .tarjeta-avatar-b(data-aos="zoom-in")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img21.png' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.align-content-center
-            .p-3
-              p.mb-0 Cajilla de seguridad.
+              p.mb-0.text-bold Cambio periódico de ropa de cama.
       .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
-        .tarjeta-avatar-b(data-aos="zoom-in")
+        .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img22.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
-              p.mb-0 Servicios de restaurante y room service.
+              p.mb-0.text-bold Cambio periódico de toallas.
       .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
-        .tarjeta-avatar-b(data-aos="zoom-in")
+        .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img23.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img21.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
-              p.mb-0 Salones de eventos.
+              p.mb-0.text-bold Cajilla de seguridad.
       .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
-        .tarjeta-avatar-b(data-aos="zoom-in")
+        .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img24.png' alt='AvatarTop')
+            img(src='@/assets/curso/tema3/img22.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
-              p.mb-0 Locales comerciales.
+              p.mb-0.text-bold Servicios de restaurante y room service.
+      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+        .tarjeta-avatar-b(data-aos="zoom-in").h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/img23.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.align-content-center
+            .p-3
+              p.mb-0.text-bold Salones de eventos.
+      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+        .tarjeta-avatar-b(data-aos="zoom-in").h-100
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/img24.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.align-content-center
+            .p-3
+              p.mb-0.text-bold Locales comerciales.
 
       .col-lg-6.mb-3.mb-lg-0
         .tarjeta-avatar-b.align-items-center(data-aos="zoom-in")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/img25.png' alt='AvatarTop')
+          .tarjeta-avatar-b__img(style="min-width: 100px !important")
+            img(src='@/assets/curso/tema3/img25.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
-              p.mb-0 Prestación de servicios adicionales como: lavandería, custodia de maletas, prensa, etc.
+              p.mb-0.text-bold Prestación de servicios adicionales como: lavandería, custodia de maletas, prensa, etc.
     
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Tabla 2. 
+          h5 
+            b Tabla 2. 
           span Tipos de servicios complementarios en los establecimientos hoteleros
 
         .tabla-a.color-acento-contenido.mb-0
@@ -328,77 +329,76 @@
           img(src='@/assets/curso/tema3/img29.png' alt='Texto explicativo')
       .col-lg-10
         .row.justify-content-center
-          .col-lg.mb-3.mb-lg-3
+          .col-lg-4.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 CL o C = <br>Cliente.
-          .col-lg.mb-3.mb-lg-3
+                  p.mb-0.text-bold CL o C = Cliente.
+          .col-lg-4.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 L = Libre.
-          .col-lg.mb-3.mb-lg-3
+                  p.mb-0.text-bold L = Libre.
+          .col-lg-4.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 S = Salida.
-          .col-lg.mb-3.mb-lg-3
+                  p.mb-0.text-bold S = Salida.
+          .col-lg-4.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 E = Entrada.
-          .col-lg.mb-3.mb-lg-3
+                  p.mb-0.text-bold E = Entrada.
+          .col-lg-4.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 BQ = <br>Bloqueada.
-        .row.justify-content-center
-          .col-lg.mb-3.mb-lg-3
+                  p.mb-0.text-bold BQ = Bloqueada.
+          .col-lg-4.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 R = <br>Repaso / <br>Para revisar.
-          .col-lg.mb-3.mb-lg-3
+                  p.mb-0.text-bold R = Repaso / Para revisar.
+          .col-lg-4.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 VIP = Very <br>important <br>person / People.
-          .col-lg.mb-3.mb-lg-3
+                  p.mb-0.text-bold VIP = Very important person / People.
+          .col-lg-4.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 DND = <br>Do not <br>disturb.
-          .col-lg.mb-3.mb-lg-3
+                  p.mb-0.text-bold DND = Do not disturb.
+          .col-lg-4.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 CU = Cuna.
-          .col-lg.mb-3.mb-lg-3
+                  p.mb-0.text-bold CU = Cuna.
+          .col-lg-6.mb-3.mb-lg-3.col-md-6
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema3/img30.png' alt='AvatarTop', style="width: 100% !important")
+              .tarjeta-avatar-b__img(style="min-width: 100px")
+                img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0 CEx = <br>Cama extra.
+                  p.mb-0.text-bold CEx = Cama extra.
 
 
 

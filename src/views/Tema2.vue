@@ -48,7 +48,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.mb-4.mb-lg-0
-        .bg-fondo-4.px-5.py-4
+        .bg-fondo-4.px-lg-5.py-lg-4.px-4.py-3
           .col-11.col-md-12
             p.mb-0 Asimismo, la clasificación de los establecimientos de alojamiento también se relaciona con sistemas de categorización, como la asignación de estrellas para hoteles, que responde a estándares de calidad definidos en normas técnicas sectoriales como las NTSH. Estos criterios consideran aspectos como el confort de las instalaciones, la variedad de servicios, la atención al cliente y la gestión operativa del establecimiento. De esta manera, la categorización no solo orienta al huésped en la elección del servicio, sino que también impulsa a los prestadores a mejorar continuamente sus procesos y a cumplir con los requisitos establecidos para fortalecer la competitividad del sector turístico en el país (ICONTEC, 2015).
       .col-lg-3.col-md-8
