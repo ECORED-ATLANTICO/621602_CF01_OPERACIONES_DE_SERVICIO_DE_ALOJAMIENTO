@@ -25,43 +25,53 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-12.col-xl-9.order-1.order-lg-2.order-xl-1.order-md-2
         TabsA.tabs_x3.color-acento-botones()
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Individual:")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Individual")
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación asignada a una persona. Las medidas de las camas individuales pueden ser: 90 centímetros de ancho por 190 de largo.
-                p.mb-0 Acomodación: puede tener una o más camas pero solo es ocupada por una persona.
+                p.mb-0 
+                  b Acomodación: 
+                  | puede tener una o más camas pero solo es ocupada por una persona.
               .col-lg-4.col-md-8
                 img(src="@/assets/curso/tema3/img03.png", alt="").mx-auto
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Doble:")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Doble")
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación asignada a dos personas. Las medidas de las camas dobles pueden ser: 140 centímetros de ancho por 190 de largo.
-                p.mb-0 Acomodación: puede tener una o más camas.
+                p.mb-0 
+                  b Acomodación: 
+                  | puede tener una o más camas.
               .col-lg-4.col-md-8
                 img(src="@/assets/curso/tema3/img04.png", alt="").mx-auto
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Triple:")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Triple")
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación asignada a tres personas.
-                p.mb-0 Acomodación: puede tener dos o más camas.
+                p.mb-0 
+                  b Acomodación: 
+                  |  puede tener dos o más camas.
               .col-lg-4.col-md-8
                 img(src="@/assets/curso/tema3/img05.png", alt="").mx-auto
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Queen:")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Queen")
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación con una cama de matrimonio. Las medidas de las camas Queen Size son 1,5 metros de ancho por 2 metros de largo.
-                p.mb-0 Acomodación: puede ser ocupado por una o más personas.
+                p.mb-0
+                  b Acomodación: 
+                  |  puede ser ocupado por una o más personas.
               .col-lg-4.col-md-8
                 img(src="@/assets/curso/tema3/img06.png", alt="").mx-auto
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="King:")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="King")
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación con una cama King Size. las medidas de las camas King Size son de 2 metros de ancho x 2 metros de largo.
-                p.mb-0 Acomodación: puede ser ocupado por una o más personas.
+                p.mb-0
+                  b Acomodación: 
+                  |  puede ser ocupado por una o más personas.
               .col-lg-4.col-md-8
                 img(src="@/assets/curso/tema3/img07.png", alt="").mx-auto
             
@@ -104,21 +114,21 @@
       .row.mb-5.bg-fondo-4.br-15.justify-content-center.p-3.p-lg-2
         .p-4
           h4.mb-2 Otros tipos de habitaciones pueden incluir: 
-        .col-lg-5.col-md-6.mb-3.mb-lg-4
+        .col-lg-5.col-12.mb-4.mb-lg-4
           .row
             .col-12.col-lg-12.col-xl-auto.mx-auto
               figure
                 img(src="@/assets/curso/tema3/img13.png", alt="" style="width: 110px;").mx-auto
             .col-lg
               p.mb-0 <b>Habitaciones comunicadas:</b> habitaciones con puertas de entrada individuales desde el exterior y una puerta de conexión entre ellas. Los huéspedes pueden moverse entre habitaciones sin pasar por el pasillo. 
-        .col-lg-4.col-md-6.mb-3.mb-lg-4
+        .col-lg-4.col-12.mb-4.mb-lg-4
           .row
             .col-12.col-lg-12.col-xl-auto.mx-auto
               figure
                 img(src="@/assets/curso/tema3/img14.png", alt="" style="width: 110px;").mx-auto
             .col-lg
               p.mb-0 <b>Habitaciones contiguas</b>: habitaciones con una pared común, pero sin puerta de conexión.
-        .col-lg-3.col-md-6.mb-3.mb-lg-4
+        .col-lg-3.col-12.mb-4.mb-lg-4
           .row
             .col-12.col-lg-12.col-xl-auto.mx-auto
               figure
@@ -142,56 +152,56 @@
 
 
     .row.mb-5.justify-content-center
-      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+      .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img17.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Recepción y atención permanente.
-      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+      .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img18.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Limpieza periódica del alojamiento.
-      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+      .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img19.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Cambio periódico de ropa de cama.
-      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+      .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img20.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Cambio periódico de toallas.
-      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+      .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img21.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Cajilla de seguridad.
-      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+      .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img22.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Servicios de restaurante y room service.
-      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+      .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img23.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Salones de eventos.
-      .col-lg-3.mb-3.mb-lg-3.col-md-6.col-sm-12
+      .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/img24.svg' alt='AvatarTop')
@@ -199,10 +209,10 @@
             .p-3
               p.mb-0.text-bold Locales comerciales.
 
-      .col-lg-6.mb-3.mb-lg-0
+      .col-xl-6.col-lg-8.mb-3.mb-lg-0
         .tarjeta-avatar-b.align-items-center(data-aos="zoom-in")
-          .tarjeta-avatar-b__img(style="min-width: 100px !important")
-            img(src='@/assets/curso/tema3/img25.svg' alt='AvatarTop')
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema3/img25.svg' alt='AvatarTop' style='max-width: 85px;')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
               p.mb-0.text-bold Prestación de servicios adicionales como: lavandería, custodia de maletas, prensa, etc.
@@ -217,6 +227,7 @@
 
         .tabla-a.color-acento-contenido.mb-0
           table
+            caption Nota. <span style="font-weight: normal">SENA, (2026).</span>
             thead
               tr
                 th Clasificación del servicio complementario
@@ -324,82 +335,103 @@
 
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-2.d-none.d-lg-flex
+      .col-xl-2.col-lg-2.d-none.d-lg-flex
         figure
           img(src='@/assets/curso/tema3/img29.png' alt='Texto explicativo')
       .col-lg-10
-        .row.justify-content-center
-          .col-lg-4.mb-3.mb-lg-3.col-md-6
+        .row
+          .col-xl-3.col-md-4.mb-3.mb-lg-3
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold CL o C = Cliente.
-          .col-lg-4.mb-3.mb-lg-3.col-md-6
+                  p.mb-0
+                    b CL o C = 
+                    | Cliente.
+          .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold L = Libre.
-          .col-lg-4.mb-3.mb-lg-3.col-md-6
+                  p.mb-0
+                    b L = 
+                    | Libre.
+          .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold S = Salida.
-          .col-lg-4.mb-3.mb-lg-3.col-md-6
+                  p.mb-0
+                    b S = 
+                    | Salida.
+          .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold E = Entrada.
-          .col-lg-4.mb-3.mb-lg-3.col-md-6
+                  p.mb-0
+                    b E = 
+                    | Entrada.
+          .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold BQ = Bloqueada.
-          .col-lg-4.mb-3.mb-lg-3.col-md-6
+                  p.mb-0
+                    b BQ = 
+                    | Bloqueada.
+          .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold R = Repaso / Para revisar.
-          .col-lg-4.mb-3.mb-lg-3.col-md-6
+                  p.mb-0
+                    b R = 
+                    | Repaso / Para revisar.
+          .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold VIP = Very important person / People.
-          .col-lg-4.mb-3.mb-lg-3.col-md-6
+                  p.mb-0
+                    b VIP = 
+                    | 
+                    i Very important person / People.
+          .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold DND = Do not disturb.
-          .col-lg-4.mb-3.mb-lg-3.col-md-6
+                  p.mb-0
+                    b DND = 
+                    | 
+                    i Do not disturb.
+          .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold CU = Cuna.
-          .col-lg-6.mb-3.mb-lg-3.col-md-6
+                  p.mb-0
+                    b CU = 
+                    | Cuna.
+          .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
               .tarjeta-avatar-b__img(style="min-width: 100px")
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
-                  p.mb-0.text-bold CEx = Cama extra.
-
+                  p.mb-0
+                    b CEx = 
+                    | Cama extra.
 
 
     .row.justify-content-center.align-items-center.mb-4

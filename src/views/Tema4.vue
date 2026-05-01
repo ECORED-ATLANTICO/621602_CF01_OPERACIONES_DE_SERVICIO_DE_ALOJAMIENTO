@@ -49,7 +49,7 @@
     p.mb-4 Aunque la estructura puede variar, la mayoría de los hoteles se organizan en departamentos operativos y administrativos, cada uno con responsabilidades específicas que contribuyen al funcionamiento integral del establecimiento.
 
     .bg-full-width.bg-fondo-2.tarjeta.mb-5
-      .p-sm-0.py-md-4.p-lg-4.px-lg-2
+      .px-1.py-4.py-md-4.p-lg-4.px-lg-2
         SlyderA(tipo="b").bg-color-white.p-0.p-lg-4.tarjeta
           .row.justify-content-center.align-items-center.p-4.p-lg-2
             .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
@@ -112,8 +112,8 @@
             b Figura 3.
           span Ejemplo gráfico de una estructura organizacional  
         figure.mb-0
-          img.mb-3(src="@/assets/curso/tema4/img11.png", alt="La figura tres muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero.").d-none.d-lg-block
-          img.mb-3(src="@/assets/curso/tema4/img12.png", alt="La figura tres muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero.").d-block.d-lg-none
+          img.mb-3(src="@/assets/curso/tema4/img11.svg", alt="La figura tres muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero.").d-none.d-lg-block
+          img.mb-3(src="@/assets/curso/tema4/img12.svg", alt="La figura tres muestra gráficamente un ejemplo de estructura organizacional u organigrama de un establecimiento de alojamiento hotelero.").d-block.d-lg-none
         figcaption <strong>Nota.</strong> SENA, (2026).
 
     .container
@@ -140,7 +140,7 @@
 
       .col-lg-9.mb-3.order-1.order-lg-2
         .bg-fondo-6.px-lg-5.py-lg-4.px-4.py-3.br-15.mb-3
-          .col-11.col-md-12
+          .col-12.col-md-12
             .row.justify-content-center.align-items-center
               .col-auto.d-none.d-lg-block
                 figure

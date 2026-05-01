@@ -23,7 +23,9 @@
 
 ///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
-  background-position: left 50% !important
+  background-position: left 50%
+  @media screen and (max-width: $bp-max-lg)
+    background-position: 30% 50% !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -35,7 +37,7 @@ figcaption
   font-weight: normal
 
 .banner-principal__row .banner-principal__img
-  width: 500px !important
+  width: 420px !important
   @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
@@ -269,7 +271,7 @@ figcaption
 
 .bg-fondo-3
   // background-image: url("../assets/curso/bg3.png") !important
-  background-position: buttom
+  background-position: bottom
 
 .bg-fondo-5
   // background-image: url("../assets/curso/tema2/img18.png") !important
@@ -309,11 +311,12 @@ figcaption
 // Tabs A
 .tabs-a__tab
   background-color: #E9F8FC !important
+  white-space: normal
 .tabs-a.color-acento-botones .tabs-a__tab__selected
   background-color: #B3C867 !important
 .tabs-a__content-item
   display: flex
-  // height: 100%
+  height: 100%
 .tabs-a
   .row
     .mb-3
@@ -608,7 +611,6 @@ a, button, div
   background-color: #F9FBE8
   color: #000
   border: solid 4px #F9FBE8 !important
-  height: fit-content !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:before
   background-color: #B3C867 !important
@@ -670,16 +672,11 @@ a, button, div
 .titulo-con-imagen
   display: flex
   align-items: center
-  position: relative
+
 .titulo-con-imagen__fondo
-  // degradado dos colores #F9FBE8 y #EDF3BC
-  // #E3F1FA
   background-color: #E3F1FA
-  // background: linear-gradient(to left, #E3F1FA, #E3F1FA)
-  // background-image: url("../assets/curso/bg/bg-titulo-01.svg")
-  // background-size: cover
   border-radius: 20px 20px 20px 20px
-  padding: 10px 20px
+  padding: 16px 25px 16px 20px
   display: inline-flex
   align-items: center
   margin-left: 30px
@@ -691,6 +688,16 @@ a, button, div
 .titulo-con-imagen__texto
   margin: 0
   padding-left: 45px
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    right: -40px
+    bottom: 0%
+    transform: translateY(50%)
+    width: 30px
+    height: 30px
+    background-image: url("../assets/curso/icono-subtitulo.png")
 
 .img-topright
   padding: 4.5rem 2rem 3rem !important

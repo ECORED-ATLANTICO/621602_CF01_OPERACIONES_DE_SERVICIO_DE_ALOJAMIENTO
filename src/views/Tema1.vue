@@ -37,7 +37,7 @@
 
 
     .bg-full-width.bg-fondo-2.tarjeta.mb-5
-      .p-sm-0.py-md-4.p-lg-4.px-lg-2
+      .px-1.py-4.py-md-4.p-lg-4.px-lg-2
         SlyderA(tipo="b").bg-color-white.p-0.p-lg-4.tarjeta
           .row.justify-content-center.align-items-center.p-4.p-lg-2
             .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
@@ -92,7 +92,7 @@
       .col-lg-9.mb-3
         p.mb-3 La formalización hotelera constituye un eje fundamental para el desarrollo ordenado, seguro y competitivo de la industria de alojamiento. Hace referencia al conjunto de disposiciones legales, técnicas y administrativas que regulan la creación, operación y control de los establecimientos de alojamiento y hospedaje, con el propósito de garantizar la calidad del servicio, la protección del usuario y el cumplimiento de las obligaciones del prestador frente al Estado. En este sentido, la formalización no debe entenderse únicamente como un requisito legal, sino como un elemento estratégico que fortalece la sostenibilidad y la credibilidad del sector hotelero.
         .bg-fondo-3.px-lg-5.py-lg-4.px-4.py-3
-          .col-11.col-md-12
+          .col-12.col-md-12
             .row.justify-content-center.align-items-center
               .col-auto.d-none.d-lg-block
                 figure
