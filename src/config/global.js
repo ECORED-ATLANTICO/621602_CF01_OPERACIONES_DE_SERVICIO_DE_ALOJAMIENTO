@@ -177,7 +177,7 @@ export default {
     {
       termino: 'Ama de llaves',
       significado:
-        'Cargo responsable de la planificación, supervisión y control del área de housekeeping, garantizando estándares de limpieza, presentación, lencería y calidad del servicio.',
+        'Cargo responsable de la planificación, supervisión y control del área de <i>housekeeping</i>, garantizando estándares de limpieza, presentación, lencería y calidad del servicio.',
     },
     {
       termino: 'Categoría hotelera',
@@ -185,22 +185,22 @@ export default {
         'Clasificación oficial de los establecimientos de alojamiento de acuerdo con criterios técnicos, normativos y de calidad, comúnmente representada por estrellas.',
     },
     {
-      termino: 'Check-in',
+      termino: '<i>Check-in</i>',
       significado:
         'Proceso mediante el cual se realiza el registro y acomodación de uno o varios huéspedes en un establecimiento de alojamiento, asignando habitación y definiendo la forma de pago, con el fin de mantener actualizada la información durante la estancia.',
     },
     {
-      termino: 'Check-in anticipado (Early check-in)',
+      termino: '<i>Check-in</i> anticipado (<i>Early check-in</i>)',
       significado:
         'Servicio que permite el ingreso del huésped antes de la hora establecida, sujeto a disponibilidad y a las políticas del establecimiento.',
     },
     {
-      termino: 'Check-out',
+      termino: '<i>Check-out</i>',
       significado:
         'Proceso mediante el cual el huésped entrega la habitación ocupada, se revisa y liquida la cuenta por los servicios consumidos y se formaliza la salida del establecimiento.',
     },
     {
-      termino: 'Check-out tardío (Late check-out)',
+      termino: '<i>Check-out</i> tardío (<i>Late check-out</i>)',
       significado:
         'Servicio que autoriza al huésped a permanecer en la habitación después de la hora de salida establecida, de acuerdo con la disponibilidad y las condiciones del hotel.',
     },
@@ -217,10 +217,10 @@ export default {
     {
       termino: 'Estancia',
       significado:
-        'Periodo comprendido entre el check-in y el check-out, durante el cual el huésped permanece alojado en el establecimiento.',
+        'Periodo comprendido entre el <i>check-in</i> y el <i>check-out</i>, durante el cual el huésped permanece alojado en el establecimiento.',
     },
     {
-      termino: 'Housekeeping',
+      termino: '<i>Housekeeping</i>',
       significado:
         'Departamento operativo responsable de la limpieza, orden, presentación y mantenimiento básico de habitaciones y áreas comunes del hotel.',
     },
@@ -245,7 +245,7 @@ export default {
         'Indicador que refleja el uso efectivo de las habitaciones disponibles durante un periodo determinado, generalmente expresado en porcentaje.',
     },
     {
-      termino: 'Par stock',
+      termino: '<i>Par stock</i>',
       significado:
         'Cantidad mínima de elementos operativos (lencería, vajilla, utensilios, entre otros) necesarios para garantizar la continuidad del servicio según la capacidad instalada.',
     },
@@ -305,7 +305,7 @@ export default {
         'Compromiso mediante el cual el establecimiento retiene una o varias habitaciones para una fecha determinada, bajo condiciones específicas de pago y cancelación.',
     },
     {
-      termino: 'Room service',
+      termino: '<i>Room service</i>',
       significado:
         'Servicio de alimentación proporcionado directamente en la habitación del huésped.',
     },
@@ -315,7 +315,7 @@ export default {
         'Conjunto de indicaciones visuales que orientan y regulan el comportamiento de las personas dentro del establecimiento.',
     },
     {
-      termino: 'Spa',
+      termino: '<i>Spa</i>',
       significado:
         'Infraestructura destinada al bienestar físico y mental, que utiliza elementos naturales o tratamientos especializados como servicio complementario del hotel.',
     },
@@ -335,7 +335,7 @@ export default {
         'Franja horaria en la cual el personal desarrolla sus funciones, garantizando la continuidad del servicio hotelero.',
     },
     {
-      termino: 'Upselling',
+      termino: '<i>Upselling</i>',
       significado:
         'Estrategia orientada a ofrecer al cliente un servicio o producto de mayor valor al inicialmente solicitado, incrementando el ingreso del establecimiento.',
     },
@@ -423,12 +423,12 @@ export default {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
             'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Centro Agroturistico - Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Miguel de Jesús Paredes Maestre ',
-          cargo: 'Responsable de la línea de producción ',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de la línea de producción',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -436,9 +436,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Sandra Isabel Suarez Delgado',
+          cargo: 'Experto temático',
+          centro: 'Centro de Servicios y Gestión Empresarial',
+        },
+        {
+          nombre: 'María Fernanda Morales Angulo',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -446,19 +451,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Álvaro Guillermo Araújo Angarita',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },
@@ -466,14 +471,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],
     },

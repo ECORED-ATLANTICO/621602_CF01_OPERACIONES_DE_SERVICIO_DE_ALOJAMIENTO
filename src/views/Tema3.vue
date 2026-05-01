@@ -58,7 +58,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Queen")
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-12.mb-4.mb-lg-0
-                p.mb-3 Una habitación con una cama de matrimonio. Las medidas de las camas Queen Size son 1,5 metros de ancho por 2 metros de largo.
+                p.mb-3 Una habitación con una cama de matrimonio. Las medidas de las camas <i>Queen Size</i> son 1,5 metros de ancho por 2 metros de largo.
                 p.mb-0
                   b Acomodación: 
                   |  puede ser ocupado por una o más personas.
@@ -68,7 +68,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="King")
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-12.mb-4.mb-lg-0
-                p.mb-3 Una habitación con una cama King Size. las medidas de las camas King Size son de 2 metros de ancho x 2 metros de largo.
+                p.mb-3 Una habitación con una cama <i>King Size</i>. las medidas de las camas <i>King Size</i> son de 2 metros de ancho x 2 metros de largo.
                 p.mb-0
                   b Acomodación: 
                   |  puede ser ocupado por una o más personas.
@@ -90,7 +90,7 @@
               .col-12
                 img(src="@/assets/curso/tema3/img12.svg", data-aos="zoom-in", style="width: 90px;").mx-auto
             .col-12.mx-auto
-              h4.text-center.mb2 Twin
+              h4.text-center.mb2 <i>Twin</i>
               p.text-center Una habitación con dos camas iguales. 
               p.text-center.mb-0 <b> Acomodación:</b> puede ser ocupado por una o más personas.
           .tarjeta.bg01.p-4
@@ -98,7 +98,7 @@
               .col-12
                 img(src="@/assets/curso/tema3/img12.svg", data-aos="zoom-in", style="width: 90px;").mx-auto
             .col-12.mx-auto
-              h4.text-center.mb2 Suite
+              h4.text-center.mb2 <i>Suite</i>
               p.text-center Un salón o sala de estar conectada a uno o más dormitorios. 
               p.text-center.mb-0 <b>Acomodación</b>: de acuerdo al número de camas puede ser asignada a una persona o más.
           .tarjeta.bg01.p-4
@@ -106,7 +106,7 @@
               .col-12
                 img(src="@/assets/curso/tema3/img12.svg", data-aos="zoom-in", style="width: 90px;").mx-auto
             .col-12.mx-auto
-              h4.text-center.mb2 Junior suite
+              h4.text-center.mb2 <i>Junior suite</i>
               p.text-center Una habitación individual con una cama y una sala de estar. A veces, el área para dormir está en un dormitorio separado del salón o la sala de estar.
               p.text-center.mb-0 <b>Acomodación</b>: por su tamaño generalmente puede ser ocupada por dos, máximo tres personas.
 
@@ -193,7 +193,7 @@
             img(src='@/assets/curso/tema3/img22.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.align-content-center
             .p-3
-              p.mb-0.text-bold Servicios de restaurante y room service.
+              p.mb-0.text-bold Servicios de restaurante y <i>room service</i>.
       .col-xl-3.col-lg-4.col-md-6.col-sm-12.mb-3.mb-lg-3
         .tarjeta-avatar-b(data-aos="zoom-in").h-100
           .tarjeta-avatar-b__img
@@ -243,7 +243,7 @@
                 td Asistencia personalizada al huésped mediante información turística, coordinación de servicios externos y apoyo logístico.
               tr
                 td Custodia de equipaje.
-                td Servicio para el resguardo temporal de maletas antes del check-in o después del check-out.
+                td Servicio para el resguardo temporal de maletas antes del <i>check-in</i> o después del <i>check-out</i>.
               tr
                 td(rowspan="3") Servicios de confort y mantenimiento.
                 td Limpieza de habitaciones.
@@ -260,14 +260,14 @@
                 td Prestación de servicio de alimentos dentro del establecimiento, orientado a cubrir necesidades nutricionales del huésped.
               tr
                 td(rowspan="2") Servicios de confort y mantenimiento.
-                td Room service.
+                td <i>Room service</i>.
                 td Servicio de alimentos y bebidas ofrecido directamente en la habitación del huésped.
               tr
                 td Bar.
                 td Servicio complementario de bebidas que contribuye a la recreación y socialización del huésped.
               tr
                 td(rowspan="3") Servicios de bienestar, recreación y ocio.
-                td Spa.
+                td <i>Spa</i>.
                 td Infraestructura destinada al bienestar físico y mental mediante tratamientos especializados.
               tr
                 td Gimnasio.
@@ -295,7 +295,7 @@
                 td Servicio de traslado desde y hacia aeropuertos, terminales o puntos de interés.
               tr
                 td Custodia de vehículos.
-                td Servicio de parqueadero o valet parking para huéspedes y visitantes.
+                td Servicio de parqueadero o <i>valet parking</i> para huéspedes y visitantes.
               tr
                 td Servicios de banquetes.
                 td Prestación de alimentos y bebidas para eventos internos organizados por el hotel.

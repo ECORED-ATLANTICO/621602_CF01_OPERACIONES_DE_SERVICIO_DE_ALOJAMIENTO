@@ -53,7 +53,7 @@
         SlyderA(tipo="b").bg-color-white.p-0.p-lg-4.tarjeta
           .row.justify-content-center.align-items-center.p-4.p-lg-2
             .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
-              p.mb-0(data-aos="fade-right")  <b>El departamento de recepción</b> cumple un papel estratégico dentro de la organización hotelera, ya que constituye el principal punto de contacto entre el hotel y el huésped. Es responsable de procesos clave como el check in, el check out, la gestión de reservas, la asignación de habitaciones y el control de la información del huésped. Desde el enfoque técnico profesional, la recepción actúa como un eje articulador de la operación, ya que mantiene comunicación constante con áreas como housekeeping, mantenimiento, alimentos y bebidas y contabilidad.
+              p.mb-0(data-aos="fade-right")  <b>El departamento de recepción</b> cumple un papel estratégico dentro de la organización hotelera, ya que constituye el principal punto de contacto entre el hotel y el huésped. Es responsable de procesos clave como el <i>check-in</i>, el <i>check-out</i>, la gestión de reservas, la asignación de habitaciones y el control de la información del huésped. Desde el enfoque técnico profesional, la recepción actúa como un eje articulador de la operación, ya que mantiene comunicación constante con áreas como <i>housekeeping</i>, mantenimiento, alimentos y bebidas y contabilidad.
 
             .col-md-8.col-lg-4
               figure
@@ -61,7 +61,7 @@
 
           .row.justify-content-center.align-items-center.p-4.p-lg-2
             .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
-              p.mb-0(data-aos="fade-right") <b>El departamento de housekeeping</b> o ama de llaves es responsable de la limpieza, el orden, la presentación y el mantenimiento básico de las habitaciones y áreas comunes. Su labor influye directamente en la percepción de calidad del servicio, ya que garantiza condiciones adecuadas de higiene, confort y seguridad. La coordinación entre housekeeping y recepción es fundamental para gestionar la disponibilidad real de habitaciones y evitar inconsistencias operativas.
+              p.mb-0(data-aos="fade-right") <b>El departamento de <i>housekeeping</i></b> o ama de llaves es responsable de la limpieza, el orden, la presentación y el mantenimiento básico de las habitaciones y áreas comunes. Su labor influye directamente en la percepción de calidad del servicio, ya que garantiza condiciones adecuadas de higiene, confort y seguridad. La coordinación entre <i>housekeeping</i> y recepción es fundamental para gestionar la disponibilidad real de habitaciones y evitar inconsistencias operativas.
             .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema4/img05.png", alt="").mx-auto
@@ -75,7 +75,7 @@
 
           .row.justify-content-center.align-items-center.p-4.p-lg-2
             .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
-              p.mb-0(data-aos="fade-right") <b>El departamento de alimentos y bebidas</b>, cuando el establecimiento lo incluye, se encarga de la prestación de servicios de restaurante, bar, room service, eventos y banquetes. Este departamento requiere una coordinación constante con la recepción y la administración, debido a su impacto en los ingresos, la satisfacción del cliente y el cumplimiento de normas sanitarias.
+              p.mb-0(data-aos="fade-right") <b>El departamento de alimentos y bebidas</b>, cuando el establecimiento lo incluye, se encarga de la prestación de servicios de restaurante, bar, <i>room service</i>, eventos y banquetes. Este departamento requiere una coordinación constante con la recepción y la administración, debido a su impacto en los ingresos, la satisfacción del cliente y el cumplimiento de normas sanitarias.
             .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema4/img07.png", alt="").mx-auto

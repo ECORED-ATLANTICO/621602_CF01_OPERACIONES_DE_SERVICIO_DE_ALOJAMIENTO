@@ -178,7 +178,7 @@ export default {
         {
           id: 11,
           texto:
-            'El housekeeping es un área operativa cuya labor impacta directamente en la percepción de calidad del servicio.',
+            'El <i>housekeeping</i> es un área operativa cuya labor impacta directamente en la percepción de calidad del servicio.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
