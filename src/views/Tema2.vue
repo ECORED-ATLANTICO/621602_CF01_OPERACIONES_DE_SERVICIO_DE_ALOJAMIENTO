@@ -69,8 +69,8 @@
             b Figura 2.
           span Criterios de evaluación para otorgamiento y categorización de estrellas 
         figure.mb-0
-          img.mb-3(src="@/assets/curso/tema2/img06.png", alt="En la figura 1 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006.").d-none.d-lg-block
-          img.mb-3(src="@/assets/curso/tema2/img07.png", alt="En la figura 1 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006.").d-block.d-lg-none
+          img.mb-3(src="@/assets/curso/tema2/img06.png", alt="En la figura 2 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006.").d-none.d-lg-block
+          img.mb-3(src="@/assets/curso/tema2/img07.png", alt="En la figura 2 se enuncian los criterios de evaluación para el otorgamiento y categorización de estrellas en los hoteles de acuerdo a la norma NTSH006.").d-block.d-lg-none
         figcaption <strong>Nota.</strong> SENA, (2026).
 
 
@@ -112,7 +112,7 @@
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 Lo invitamos a consultar el siguiente PDF anexo para conocer a detalle cuáles son los tipos de alojamiento y hospedajes y algunas otras clasificaciones.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
-                a.boton.color-acento-botones(href="" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tipos de alojamiento y hospedajes.pdf')" target="_blank")
                   span Ver PDF
                   i.fas.fa-file-download
     

@@ -18,7 +18,7 @@
 
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.1. Tipos de habitaciones y acomodación
+      h2 3.1 Tipos de habitaciones y acomodación
     
     p.mb-4 A continuación, se describen cuáles son los diferentes tipos de habitaciones y acomodación.
     
@@ -138,7 +138,7 @@
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.2. Servicios complementarios
+      h2 3.2 Servicios complementarios
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-9.mb-4.mb-lg-0
