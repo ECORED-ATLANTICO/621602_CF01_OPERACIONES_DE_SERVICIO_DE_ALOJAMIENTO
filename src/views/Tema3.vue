@@ -425,7 +425,7 @@
                     | Cuna.
           .col-xl-3.mb-3.mb-lg-3.col-md-4
             .tarjeta-avatar-b(data-aos="zoom-in").h-100
-              .tarjeta-avatar-b__img(style="min-width: 100px")
+              .tarjeta-avatar-b__img()
                 img(src='@/assets/curso/tema3/img30.svg' alt='AvatarTop', style="")
               .tarjeta.bg-color-5.align-content-center
                 .p-2
