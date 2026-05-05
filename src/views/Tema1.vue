@@ -41,7 +41,7 @@
         SlyderA(tipo="b").bg-color-white.p-0.p-lg-4.tarjeta
           .row.justify-content-center.align-items-center.p-4.p-lg-2
             .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
-              p.mb-0(data-aos="fade-right") <b>Durante la Edad Media y la Edad Moderna</b>, la hotelería experimentó un proceso de transformación impulsado por el crecimiento del comercio, las peregrinaciones religiosas y el desarrollo de rutas de viaje. Las posadas y hospederías, muchas veces administradas por monasterios o familias, ofrecían servicios más estructurados, aunque aún con limitaciones en confort y seguridad. Posteriormente, con el surgimiento de los primeros establecimientos que comenzaron a denominarse “hoteles”, se consolidó la idea de un servicio organizado de alojamiento, incorporando progresivamente alimentación, establos y atención al viajero, lo que marcó una transición hacia una actividad más especializada.              
+              p.mb-0(data-aos="fade-right") <b>Durante la Edad Media y la Edad Moderna</b>, la hotelería experimentó un proceso de transformación impulsado por el crecimiento del comercio, las peregrinaciones religiosas y el desarrollo de rutas de viaje. Las posadas y hospederías, muchas veces administradas por monasterios o familias, ofrecían servicios más estructurados, aunque aún con limitaciones en <i>confort</i> y seguridad. Posteriormente, con el surgimiento de los primeros establecimientos que comenzaron a denominarse “hoteles”, se consolidó la idea de un servicio organizado de alojamiento, incorporando progresivamente alimentación, establos y atención al viajero, lo que marcó una transición hacia una actividad más especializada.              
             .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema1/img05.png", alt="").mx-auto
@@ -76,11 +76,11 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-4")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0 Lo invitamos a ver el siguiente video, el cual realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
+                p.mb-0 Lo invitamos a abrir el siguiente enlace en el que se presenta un video que realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=hxF0S1s5ZxE" target="_blank")
-                  span Ver video
-                  i.fas.fa-play-circle
+                  span Abrir enlace
+                  i.fas.fa-external-link-alt
 
     separador
     
@@ -210,8 +210,8 @@
                 p.mb-0 Lo invitamos a leer las demás disposiciones que realiza la ley 300 de 1996 en Colombia, a través del enlace que se encuentra a continuación:
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos_ntsh.zip')" target="_blank")
-                  span Ver Zip
-                  i.fas.fa-file-download
+                  span Abrir enlace
+                  i.fas.fa-external-link-alt
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4.mb-lg-0
@@ -238,7 +238,7 @@
                 p.mb-0 Para profundizar sobre las disposiciones que realiza la Resolución 657 de 2005 en Colombia, lo invitamos a ingresar al enlace a continuación:
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=16635" target="_blank")
-                  span Ver página
+                  span Abrir enlace
                   i.fas.fa-external-link-alt
 
     
@@ -328,8 +328,8 @@
                 p.mb-0 Lo invitamos a consultar en la sección de Anexos, el contenido completo de cada una de estas normas.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos_ntsh.zip')" target="_blank")
-                  span Ver Zip
-                  i.fas.fa-file-download
+                  span Abrir enlace
+                  i.fas.fa-external-link-alt
     
 </template>
 

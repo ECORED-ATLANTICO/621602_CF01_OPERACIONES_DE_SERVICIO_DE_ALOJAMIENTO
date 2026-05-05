@@ -25,11 +25,11 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-5")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0 En el siguiente video podrá aprender qué es un establecimiento de alojamiento o de hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
+                p.mb-0 En el siguiente video podrá aprender qué es un establecimiento de alojamiento u hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=fAg0gdOyEt4" target="_blank")
-                  span Ver video
-                  i.fas.fa-play-circle
+                  span Abrir enlace
+                  i.fas.fa-external-link-alt
 
 
     separador
@@ -50,7 +50,7 @@
       .col-lg-9.mb-4.mb-lg-0
         .bg-fondo-4.px-lg-5.py-lg-4.px-4.py-3
           .col-12.col-md-12
-            p.mb-0 Asimismo, la clasificación de los establecimientos de alojamiento también se relaciona con sistemas de categorización, como la asignación de estrellas para hoteles, que responde a estándares de calidad definidos en normas técnicas sectoriales como las NTSH. Estos criterios consideran aspectos como el confort de las instalaciones, la variedad de servicios, la atención al cliente y la gestión operativa del establecimiento. De esta manera, la categorización no solo orienta al huésped en la elección del servicio, sino que también impulsa a los prestadores a mejorar continuamente sus procesos y a cumplir con los requisitos establecidos para fortalecer la competitividad del sector turístico en el país (ICONTEC, 2015).
+            p.mb-0 Asimismo, la clasificación de los establecimientos de alojamiento también se relaciona con sistemas de categorización, como la asignación de estrellas para hoteles, que responde a estándares de calidad definidos en normas técnicas sectoriales como las NTSH. Estos criterios consideran aspectos como el <i>confort</i> de las instalaciones, la variedad de servicios, la atención al cliente y la gestión operativa del establecimiento. De esta manera, la categorización no solo orienta al huésped en la elección del servicio, sino que también impulsa a los prestadores a mejorar continuamente sus procesos y a cumplir con los requisitos establecidos para fortalecer la competitividad del sector turístico en el país (ICONTEC, 2015).
       .col-lg-3.col-md-8
         figure
           img(src="@/assets/curso/tema2/img05.png", alt="").mx-auto
@@ -83,10 +83,10 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-4")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0 Lo invitamos a consultar el siguiente documento para ampliar su conocimiento sobre cómo se otorga la clasificación de estrellas a los hoteles:
+                p.mb-0 Lo invitamos a consultar el siguiente video para ampliar su conocimiento sobre cómo se otorga la clasificación de estrellas a los hoteles:
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=oHZnQTBtnws" target="_blank")
-                  span Ver página
+                  span Abrir enlace
                   i.fas.fa-external-link-alt
     
     separador
@@ -113,8 +113,8 @@
                 p.mb-0 Lo invitamos a consultar el siguiente PDF anexo para conocer a detalle cuáles son los tipos de alojamiento y hospedajes y algunas otras clasificaciones.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(:href="obtenerLink('/downloads/Tipos de alojamiento y hospedajes.pdf')" target="_blank")
-                  span Ver PDF
-                  i.fas.fa-file-download
+                  span Abrir enlace
+                  i.fas.fa-external-link-alt
     
         
     

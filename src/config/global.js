@@ -146,7 +146,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA1_621602_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -442,7 +442,7 @@ export default {
         },
         {
           nombre: 'María Fernanda Morales Angulo',
-          cargo: 'Evaluador Instruccional',
+          cargo: 'Diseñador instruccional',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
       ],

@@ -61,7 +61,7 @@
 
           .row.justify-content-center.align-items-center.p-4.p-lg-2
             .col-lg-8.mb-4.mb-lg-0.mb-3.mb-lg-0
-              p.mb-0(data-aos="fade-right") <b>El departamento de <i>housekeeping</i></b> o ama de llaves es responsable de la limpieza, el orden, la presentación y el mantenimiento básico de las habitaciones y áreas comunes. Su labor influye directamente en la percepción de calidad del servicio, ya que garantiza condiciones adecuadas de higiene, confort y seguridad. La coordinación entre <i>housekeeping</i> y recepción es fundamental para gestionar la disponibilidad real de habitaciones y evitar inconsistencias operativas.
+              p.mb-0(data-aos="fade-right") <b>El departamento de <i>housekeeping</i></b> o ama de llaves es responsable de la limpieza, el orden, la presentación y el mantenimiento básico de las habitaciones y áreas comunes. Su labor influye directamente en la percepción de calidad del servicio, ya que garantiza condiciones adecuadas de higiene, <i>confort</i> y seguridad. La coordinación entre <i>housekeeping</i> y recepción es fundamental para gestionar la disponibilidad real de habitaciones y evitar inconsistencias operativas.
             .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema4/img05.png", alt="").mx-auto

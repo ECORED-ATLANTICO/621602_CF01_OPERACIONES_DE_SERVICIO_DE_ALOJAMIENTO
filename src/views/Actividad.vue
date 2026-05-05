@@ -18,7 +18,7 @@ export default {
   data: () => ({
     cuestionario: {
       tema: 'Reconociendo los fundamentos de la industria hotelera',
-      titulo: 'Reconociendo los fundamentos de la industria hotelera',
+      titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> evaluar la comprensión del aprendiz sobre los conceptos fundamentales de la industria hotelera, su evolución, estructura organizacional, normativa básica y terminología técnica, mediante la identificación correcta de enunciados, fortaleciendo la apropiación conceptual necesaria para el desempeño en el contexto técnico profesional del sector alojamiento y hospedaje.',
       barajarPreguntas: true,

@@ -55,7 +55,7 @@
               .col-lg-4.col-md-8
                 img(src="@/assets/curso/tema3/img05.png", alt="").mx-auto
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Queen")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="<i>Queen</i>")
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-12.mb-4.mb-lg-0
                 p.mb-3 Una habitación con una cama de matrimonio. Las medidas de las camas <i>Queen Size</i> son 1,5 metros de ancho por 2 metros de largo.
@@ -65,10 +65,10 @@
               .col-lg-4.col-md-8
                 img(src="@/assets/curso/tema3/img06.png", alt="").mx-auto
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="King")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="<i>King</i>")
             .row.justify-content-center.align-items-center
               .col-lg-8.col-md-12.mb-4.mb-lg-0
-                p.mb-3 Una habitación con una cama <i>King Size</i>. las medidas de las camas <i>King Size</i> son de 2 metros de ancho x 2 metros de largo.
+                p.mb-3 Una habitación con una cama <i>King Size</i>. Las medidas de las camas <i>King Size</i> son de 2 metros de ancho x 2 metros de largo.
                 p.mb-0
                   b Acomodación: 
                   |  puede ser ocupado por una o más personas.
@@ -245,7 +245,7 @@
                 td Custodia de equipaje.
                 td Servicio para el resguardo temporal de maletas antes del <i>check-in</i> o después del <i>check-out</i>.
               tr
-                td(rowspan="3") Servicios de confort y mantenimiento.
+                td(rowspan="3") Servicios de <i>confort</i> y mantenimiento.
                 td Limpieza de habitaciones.
                 td Aseo periódico de habitaciones y áreas comunes para mantener condiciones adecuadas de higiene y presentación.
               tr
@@ -259,7 +259,7 @@
                 td Restaurante.
                 td Prestación de servicio de alimentos dentro del establecimiento, orientado a cubrir necesidades nutricionales del huésped.
               tr
-                td(rowspan="2") Servicios de confort y mantenimiento.
+                td(rowspan="2") Servicios de <i>confort</i> y mantenimiento.
                 td <i>Room service</i>.
                 td Servicio de alimentos y bebidas ofrecido directamente en la habitación del huésped.
               tr
@@ -330,7 +330,7 @@
         p.mb-0 En los hoteles se emplea una gran variedad de siglas, abreviaturas y símbolos como herramientas operativas para indicar el estado de las habitaciones, la ocupación, las tarifas, los servicios especiales o las condiciones específicas de un huésped. Generalmente, estas convenciones se representan mediante una letra o un conjunto de letras que permiten identificar rápidamente si una habitación se encuentra libre, ocupada, en salida, bloqueada o en proceso de revisión, entre otros estados. El uso adecuado de estas convenciones facilita la comunicación interna entre los distintos departamentos, optimiza la gestión de las reservas y contribuye a una atención más eficiente y organizada, alineada con los protocolos y procedimientos técnicos del servicio hotelero.
 
 
-    p.mb-4 A continuación se ilustran algunos ejemplos de convenciones y siglas para indicar estado de la habitación
+    p.mb-4 A continuación se ilustran algunos ejemplos de convenciones y siglas para indicar estado de la habitación:
 
 
 
