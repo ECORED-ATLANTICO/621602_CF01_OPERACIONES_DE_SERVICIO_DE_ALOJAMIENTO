@@ -78,7 +78,7 @@
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 Lo invitamos a abrir el siguiente enlace en el que se presenta un video que realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
-                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=hxF0S1s5ZxE" target="_blank")
+                a.boton.color-acento-botones(href="https://youtu.be/Xb_v7SyD4_0" target="_blank")
                   span Abrir enlace
                   i.fas.fa-external-link-alt
 

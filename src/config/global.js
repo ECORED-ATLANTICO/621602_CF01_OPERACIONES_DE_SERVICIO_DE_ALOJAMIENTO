@@ -146,7 +146,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA1_621602_DU.pdf',
+        download: 'downloads/621602_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -422,7 +422,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -452,7 +452,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseñador web',
+          cargo: 'Diseño web',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -471,12 +471,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luz Karime Amaya Cabra',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Laura Daniela Burgos Rueda',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
