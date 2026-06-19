@@ -147,7 +147,7 @@
                   img(src="@/assets/curso/tema4/img15.svg", alt="").mx-auto
               .col
                 p.mb-3 Se puede decir entonces que es un documento de apoyo para el personal de una empresa, el cual contiene políticas y detalles de las actividades a realizarse en funciones específicas.
-                
+                p.mb-3 En resumen, los organigramas sirven para:
                 ul.lista-ul.mb-0
                   li 
                     i.lista-ul__vineta

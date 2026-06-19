@@ -342,6 +342,12 @@ export default {
   ],
   referencias: [
     {
+      referencia:
+        'Alcaldía Mayor de Bogotá – Secretaría General (1996). <em>Documentos para turismo (Reglamentación).</em>',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/listados/tematica2.jsp?subtema=20482',
+    },
+    {
       referencia: 'Báez Casillas, S. (2009). <em>Hotelería 4ta Edición.</em>',
       link: '',
     },
@@ -354,17 +360,6 @@ export default {
       referencia:
         'Medlik, S., & Ingram, H. (2018). <em>The business of hotels</em> (5th ed.). Routledge.',
       link: '',
-    },
-    {
-      referencia:
-        'Ministerio de Desarrollo económico (1996 - 2025). <em>Normatividad Turismo Colombia.</em>',
-      link: 'https://rosdary.wordpress.com/normatividad-turismo-colombia/',
-    },
-    {
-      referencia:
-        'Alcaldía Mayor de Bogotá – Secretaría General (1996). <em>Documentos para turismo (Reglamentación).</em>',
-      link:
-        'https://www.alcaldiabogota.gov.co/sisjur/listados/tematica2.jsp?subtema=20482',
     },
     {
       referencia:
@@ -407,6 +402,11 @@ export default {
         'Ministerio de Comercio, Industria y Turismo. (2009). <em>NTSH 006 Clasificación de Establecimientos de Alojamiento y Hospedaje. Categorización por Estrellas de Hoteles. Requisitos Normativos.</em>',
       link:
         'https://www.mincit.gov.co/getattachment/minturismo/calidad-y-desarrollo-sostenible/calidad-turistica/normas-tecnicas-sectoriales/nts-alojamiento-y-hospedaje-1/norma-tecnica-sectorial-colombiana-ntsh-006-i-actu/norma-tecnica-sectorial-colombiana-ntsh-006-i.pdf.aspx',
+    },
+    {
+      referencia:
+        'Ministerio de Desarrollo económico (1996 - 2025). <em>Normatividad Turismo Colombia.</em>',
+      link: 'https://rosdary.wordpress.com/normatividad-turismo-colombia/',
     },
     {
       referencia:
