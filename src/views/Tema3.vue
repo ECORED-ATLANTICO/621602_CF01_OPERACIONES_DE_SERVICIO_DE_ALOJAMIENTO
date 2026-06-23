@@ -235,70 +235,66 @@
                 th Descripción
             tbody
               tr
-                td(rowspan="3") Servicios de atención y apoyo al huésped.
-                td Recepción permanente.
+                td(rowspan="3") Servicios de atención y apoyo al huésped
+                td Recepción permanente
                 td Atención continua al huésped para registro, información, orientación y gestión de solicitudes durante su estadía.
               tr
-                td Conserjería.
+                td Conserjería
                 td Asistencia personalizada al huésped mediante información turística, coordinación de servicios externos y apoyo logístico.
               tr
-                td Custodia de equipaje.
+                td Custodia de equipaje
                 td Servicio para el resguardo temporal de maletas antes del <i>check-in</i> o después del <i>check-out</i>.
               tr
-                td(rowspan="3") Servicios de <i>confort</i> y mantenimiento.
-                td Limpieza de habitaciones.
+                td(rowspan="3") Servicios de <i>confort</i> y mantenimiento
+                td Limpieza de habitaciones
                 td Aseo periódico de habitaciones y áreas comunes para mantener condiciones adecuadas de higiene y presentación.
               tr
-                td Cambio de lencería y toallas.
+                td Cambio de lencería y toallas
                 td Sustitución periódica de ropa de cama y baño conforme a políticas del establecimiento o solicitud del huésped.
               tr
-                td Cajilla de seguridad.
+                td Cajilla de seguridad
                 td Dispositivo destinado al resguardo de objetos de valor del huésped durante su estancia.
               tr
-                td Servicios de alimentación y bebidas.
-                td Restaurante.
+                td(rowspan="3") Servicios de alimentación y bebidas
+                td Restaurante
                 td Prestación de servicio de alimentos dentro del establecimiento, orientado a cubrir necesidades nutricionales del huésped.
               tr
-                td(rowspan="2") Servicios de <i>confort</i> y mantenimiento.
-                td <i>Room service</i>.
+                td <i>Room service</i>
                 td Servicio de alimentos y bebidas ofrecido directamente en la habitación del huésped.
               tr
-                td Bar.
+                td Bar
                 td Servicio complementario de bebidas que contribuye a la recreación y socialización del huésped.
               tr
-                td(rowspan="3") Servicios de bienestar, recreación y ocio.
-                td <i>Spa</i>.
+                td(rowspan="3") Servicios de bienestar, recreación y ocio
+                td <i>Spa</i>
                 td Infraestructura destinada al bienestar físico y mental mediante tratamientos especializados.
               tr
-                td Gimnasio.
+                td Gimnasio
                 td Espacio equipado para la actividad física del huésped durante su estadía.
               tr
-                td Piscina.
+                td Piscina
                 td Área recreativa destinada al descanso y la recreación, de acuerdo con la categoría del hotel.
               tr
-                td(rowspan="2") Servicios empresariales y para eventos.
-                td Salones de eventos.
+                td(rowspan="2") Servicios empresariales y para eventos
+                td Salones de eventos
                 td Espacios destinados a la realización de reuniones, convenciones, capacitaciones o celebraciones.
               tr
-                td Servicios de banquetes.
+                td Servicios de banquetes
                 td Prestación de alimentos y bebidas para eventos internos organizados por el hotel.
               tr
-                td(rowspan="2") Servicios comerciales y adicionales.
-                td Lavandería.
+                td(rowspan="2") Servicios comerciales y adicionales
+                td Lavandería
                 td Servicio de lavado, secado y planchado de prendas del huésped.
               tr
-                td Tiendas o locales comerciales.
+                td Tiendas o locales comerciales
                 td Espacios destinados a la venta de productos o servicios complementarios dentro del hotel.
               tr
-                td(rowspan="3") Servicios de apoyo a la movilidad.
-                td Transporte o traslados.
+                td(rowspan="2") Servicios de apoyo a la movilidad
+                td Transporte o traslados
                 td Servicio de traslado desde y hacia aeropuertos, terminales o puntos de interés.
               tr
-                td Custodia de vehículos.
+                td Custodia de vehículos
                 td Servicio de parqueadero o <i>valet parking</i> para huéspedes y visitantes.
-              tr
-                td Servicios de banquetes.
-                td Prestación de alimentos y bebidas para eventos internos organizados por el hotel.
 
 
     .container

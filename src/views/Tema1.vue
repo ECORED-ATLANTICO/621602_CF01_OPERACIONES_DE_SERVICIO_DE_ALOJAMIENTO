@@ -158,43 +158,43 @@
                 th Aplicación en servicios de alojamiento
             tbody
               tr
-                td Objeto de la ley.
+                td Objeto de la ley
                 td Establece el marco legal para el desarrollo y regulación del turismo en Colombia.
                 td Define el entorno normativo en el que operan los establecimientos de alojamiento.
               tr
-                td Principios del turismo.
+                td Principios del turismo
                 td Promueve el desarrollo sostenible, la calidad del servicio, la protección al usuario y la competitividad.
                 td Orienta la prestación del servicio hotelero hacia la calidad y la satisfacción del cliente.
               tr
-                td Organización del sector turístico.
+                td Organización del sector turístico
                 td Define las entidades responsables del turismo (Ministerio de Comercio, Industria y Turismo, entre otros).
                 td Los hoteles deben alinearse con las políticas y lineamientos institucionales del sector.
               tr
-                td Registro Nacional de Turismo (RNT).
+                td Registro Nacional de Turismo (RNT)
                 td Obliga a los prestadores de servicios turísticos a inscribirse y actualizar su registro.
                 td Todo establecimiento de alojamiento debe estar inscrito en el RNT para operar legalmente.
               tr
-                td Prestadores de servicios turísticos.
+                td Prestadores de servicios turísticos
                 td Clasifica los actores del sector (hoteles, agencias de viajes, operadores, etc.).
                 td Identifica a los establecimientos de alojamiento como prestadores formales del servicio.
               tr
-                td Derechos y deberes de los usuarios.
+                td Derechos y deberes de los usuarios
                 td Garantiza información clara, calidad en el servicio y protección al consumidor.
                 td El hotel debe brindar información veraz sobre tarifas, servicios y condiciones.
               tr
-                td Calidad del servicio turístico.
+                td Calidad del servicio turístico
                 td Promueve estándares de calidad y certificaciones para mejorar la competitividad.
                 td Impulsa la implementación de normas de calidad en los servicios de alojamiento.
               tr
-                td Inspección, vigilancia y control.
+                td Inspección, vigilancia y control
                 td Establece mecanismos para supervisar el cumplimiento de la normativa.
                 td Los hoteles pueden ser inspeccionados para verificar cumplimiento legal y de calidad.
               tr
-                td Incentivos al turismo.
+                td Incentivos al turismo
                 td Define beneficios para fomentar el desarrollo del sector turístico.
                 td Puede favorecer inversiones y mejora de infraestructura hotelera.
               tr
-                td Sanciones.
+                td Sanciones
                 td Establece sanciones por incumplimiento de la normativa turística.
                 td Un hotel puede ser sancionado por operar sin registro o incumplir normas.
 
