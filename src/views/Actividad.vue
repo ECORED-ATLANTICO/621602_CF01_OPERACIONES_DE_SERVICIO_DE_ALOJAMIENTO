@@ -27,228 +27,632 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto:
-            'La hotelería es una actividad económica del sector servicios orientada exclusivamente al alojamiento de turistas.',
+          texto: '¿Cuál es el propósito principal de la industria hotelera?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Ofrecer únicamente alojamiento a turistas extranjeros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Prestar servicios de alojamiento y otros servicios complementarios a diferentes tipos de huéspedes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Administrar exclusivamente agencias de viajes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Comercializar únicamente paquetes turísticos.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            'La evolución histórica de la hotelería está directamente relacionada con el desarrollo del comercio, las rutas de viaje y los medios de transporte.',
+            '¿Qué factor ha influido directamente en la evolución histórica de la hotelería?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'El desarrollo del turismo y los cambios sociales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La desaparición del transporte.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La eliminación de los servicios de hospedaje.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La reducción de los viajes internacionales.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
           texto:
-            'Los establecimientos de alojamiento reciben la misma denominación en todos los países, independientemente de la normativa local.',
+            '¿Por qué los establecimientos de alojamiento reciben diferentes denominaciones entre países?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Porque todos utilizan la misma clasificación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Porque la normativa y la clasificación turística varían según cada país.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Porque no existe regulación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque dependen únicamente del idioma.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
           texto:
-            'La estructura organizacional del hotel define las áreas, cargos y relaciones jerárquicas necesarias para la prestación eficiente del servicio.',
+            '¿Cuál es el propósito de la estructura organizacional de un hotel?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Elaborar campañas publicitarias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Definir áreas, cargos y niveles de responsabilidad para una operación eficiente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Determinar únicamente las tarifas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Organizar eventos sociales.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
           texto:
-            'El departamento de recepción es responsable únicamente del registro de entrada y salida de los huéspedes.',
-          imagen: require('@/assets/actividad/imagen5.png'),
+            '¿Cuál de las siguientes funciones corresponde al departamento de recepción?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Preparar alimentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Gestionar el registro, la atención y la salida de los huéspedes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Realizar mantenimiento de equipos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Supervisar exclusivamente la lavandería.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 6,
           texto:
-            'Los servicios complementarios contribuyen a mejorar la experiencia del huésped y a generar valor agregado para el establecimiento.',
-          imagen: require('@/assets/actividad/imagen6.png'),
+            '¿Qué aportan los servicios complementarios a un establecimiento hotelero?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Incrementan únicamente los costos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Mejoran la experiencia del huésped y generan valor agregado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminan la necesidad del alojamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituyen el servicio de recepción.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 7,
           texto:
-            'Las normas técnicas sectoriales hoteleras en Colombia buscan estandarizar procesos y promover la calidad del servicio.',
-          imagen: require('@/assets/actividad/imagen7.png'),
+            '¿Cuál es el objetivo de las normas técnicas sectoriales hoteleras en Colombia?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Limitar el funcionamiento de los hoteles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Promover la calidad y estandarizar los procesos de servicio.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Regular únicamente las tarifas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Clasificar únicamente restaurantes.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 8,
           texto:
-            'La tipología de habitaciones no influye en la tarifa ni en la gestión de reservas del hotel.',
-          imagen: require('@/assets/actividad/imagen8.png'),
+            '¿Por qué la tipología de habitaciones es importante en un hotel?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Solo sirve para decorar el establecimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Influye en la tarifa, la comercialización y la gestión de reservas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'No tiene relación con la operación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solo interesa al área de mantenimiento.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 9,
           texto:
-            'El uso de convenciones y siglas en hotelería facilita la comunicación interna y la toma de decisiones operativas.',
-          imagen: require('@/assets/actividad/imagen9.png'),
+            '¿Cuál es el beneficio del uso de siglas y convenciones hoteleras?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Incrementar el número de huéspedes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Facilitar la comunicación y la operación entre las diferentes áreas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la cantidad de habitaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar los procedimientos administrativos.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 10,
           texto:
-            'Todas las siglas utilizadas para indicar el estado de las habitaciones son universales y obligatorias para los hoteles.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'Respecto a las siglas utilizadas para identificar el estado de las habitaciones, es correcto afirmar que:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Son obligatorias y universales en todos los hoteles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Pueden variar según el establecimiento o el sistema utilizado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Solo se utilizan en hoteles cinco estrellas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No tienen utilidad operativa.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 11,
           texto:
-            'El <i>housekeeping</i> es un área operativa cuya labor impacta directamente en la percepción de calidad del servicio.',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
-          ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
-        },
-        {
-          id: 12,
-          texto:
-            'El organigrama permite identificar los canales de comunicación y los niveles de responsabilidad dentro del hotel.',
+            '¿Cuál es la función principal del área de <em>housekeeping</em>?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Gestionar reservas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Garantizar la limpieza, presentación y disponibilidad de las habitaciones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Elaborar estados financieros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar campañas comerciales.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 13,
-          texto:
-            'La normativa turística no tiene relación con la legalidad de la operación de los establecimientos de alojamiento.',
+          id: 12,
+          texto: '¿Qué información permite identificar un organigrama?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Únicamente los salarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Los niveles jerárquicos y los canales de comunicación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Las tarifas de alojamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los horarios de los huéspedes.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 13,
+          texto: '¿Por qué es importante cumplir la normativa turística?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Porque solo aplica a hoteles internacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Porque garantiza una operación legal y de calidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Porque reemplaza los procedimientos internos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque elimina las auditorías.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 14,
-          texto:
-            'La hotelería moderna se caracteriza por la personalización del servicio y el uso de herramientas tecnológicas.',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          texto: '¿Cuál es una característica de la hotelería moderna?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Eliminar el contacto con el huésped.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Integrar tecnología y personalizar la experiencia del cliente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir todos los servicios complementarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Operar únicamente de forma presencial.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 15,
           texto:
-            'El técnico profesional debe comprender la estructura organizacional para integrarse adecuadamente al entorno laboral hotelero.',
-          imagen: require('@/assets/actividad/imagen6.png'),
+            '¿Por qué un técnico profesional debe conocer la estructura organizacional del hotel?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Para reemplazar a todos los jefes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Para integrarse adecuadamente a la operación y comprender sus responsabilidades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Para definir las tarifas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Para administrar exclusivamente el área financiera.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
-          mensaje_incorrecto:
-            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuál de los siguientes establecimientos hace parte del sector de alojamiento?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Centro comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Hotel.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Hospital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Banco.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué área mantiene contacto permanente con el huésped durante su estadía?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Contabilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Recepción.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Compras.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Archivo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es uno de los objetivos de ofrecer un servicio de calidad en hotelería?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar únicamente los costos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Lograr la satisfacción y fidelización del huésped.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la ocupación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar los servicios ofrecidos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué elemento hace parte de la terminología técnica utilizada en hotelería?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Fórmulas químicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Siglas y convenciones operativas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Lenguaje jurídico exclusivamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Términología médica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es la importancia de conocer los fundamentos de la industria hotelera?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo sirve para desempeñar cargos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Proporciona las bases para comprender la operación y prestar un servicio de calidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Únicamente permite clasificar hoteles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solo es útil para el área comercial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
       mensaje_final_aprobado:
