@@ -25,7 +25,7 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-5")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0 En el siguiente video podrá aprender qué es un establecimiento de alojamiento u hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
+                p.mb-0 En el siguiente video podrá aprender qué es un establecimiento de alojamiento y hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=g7mYL_0smEk" target="_blank")
                   span Abrir enlace
