@@ -15,7 +15,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Un establecimiento de alojamiento u hospedaje se define como una unidad prestadora de servicios turísticos que ofrece estancia temporal a personas fuera de su lugar de residencia habitual, garantizando condiciones de descanso, seguridad y atención durante su permanencia. Estos establecimientos, que incluyen hoteles, hostales, apartahoteles y posadas, cumplen un papel fundamental en la cadena de valor del turismo, ya que facilitan la permanencia del visitante en un destino y contribuyen a la calidad de la experiencia turística. Además, el servicio de alojamiento no se limita al espacio físico, sino que integra procesos operativos, atención al cliente y servicios complementarios que responden a estándares definidos dentro del sector (Ministerio de Comercio, Industria y Turismo (MinCIT), 2017).
+            p.mb-0 Un establecimiento de alojamiento y hospedaje se define como una unidad prestadora de servicios turísticos que ofrece estancia temporal a personas fuera de su lugar de residencia habitual, garantizando condiciones de descanso, seguridad y atención durante su permanencia. Estos establecimientos, que incluyen hoteles, hostales, apartahoteles y posadas, cumplen un papel fundamental en la cadena de valor del turismo, ya que facilitan la permanencia del visitante en un destino y contribuyen a la calidad de la experiencia turística. Además, el servicio de alojamiento no se limita al espacio físico, sino que integra procesos operativos, atención al cliente y servicios complementarios que responden a estándares definidos dentro del sector (Ministerio de Comercio, Industria y Turismo (MinCIT), 2017).
 
     .row.justify-content-center.mb-0
       .col-12.col-lg-10.mb-0
@@ -25,7 +25,7 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-5")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0 En el siguiente video podrá aprender qué es un establecimiento de alojamiento y hospedaje, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
+                p.mb-0 En el siguiente video podrá aprender qué es un establecimiento de alojamiento y hospedajes, cuáles son los factores de servicio, los criterios de evaluación para el otorgamiento del certificado de categorización por estrellas y cuál es su clasificación.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=g7mYL_0smEk" target="_blank")
                   span Abrir enlace

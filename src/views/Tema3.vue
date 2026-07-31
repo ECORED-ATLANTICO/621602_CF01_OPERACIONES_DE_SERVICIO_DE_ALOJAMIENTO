@@ -14,7 +14,7 @@
       .col-lg-9.mb-3.mb-lg-0
         .bg-fondo-4.px-lg-5.py-lg-4.px-4.py-3
           .col-lg-11.col-md-12
-            p.mb-0 Dentro de la Norma técnica sectorial colombiana NTSH006, se deben considerar los siguientes aspectos en las habitaciones: seguridad, dimensiones en donde se incluye el baño y closet, muebles, conexiones eléctricas, ropa de cama, piso, ventanas, iluminación, baños y sus componentes, entre otros, ducha, toallas y presión del agua, esto define la clasificación que se le da a cada una de las habitaciones y permite la siguiente tipología:
+            p.mb-0 Dentro de la Norma Técnica Sectorial Colombiana NTSH006, se deben considerar los siguientes aspectos en las habitaciones: seguridad, dimensiones en donde se incluye el baño y closet, muebles, conexiones eléctricas, ropa de cama, piso, ventanas, iluminación, baños y sus componentes, entre otros, ducha, toallas y presión del agua, esto define la clasificación que se le da a cada una de las habitaciones y permite la siguiente tipología:
 
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -31,7 +31,7 @@
                 p.mb-3 Una habitación asignada a una persona. Las medidas de las camas individuales pueden ser: 90 centímetros de ancho por 190 de largo.
                 p.mb-0 
                   b Acomodación: 
-                  | puede tener una o más camas pero solo es ocupada por una persona.
+                  | puede tener una o más camas, pero solo es ocupada por una persona.
               .col-lg-4.col-md-8
                 img(src="@/assets/curso/tema3/img03.png", alt="").mx-auto
 
@@ -100,7 +100,7 @@
             .col-12.mx-auto
               h4.text-center.mb2 <i>Suite</i>
               p.text-center Un salón o sala de estar conectada a uno o más dormitorios. 
-              p.text-center.mb-0 <b>Acomodación</b>: de acuerdo al número de camas puede ser asignada a una persona o más.
+              p.text-center.mb-0 <b>Acomodación</b>: de acuerdo al número de camas, puede ser asignada a una persona o más.
           .tarjeta.bg01.p-4
             .row.justify-content-center.mb-3
               .col-12
@@ -323,10 +323,11 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img28.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En los hoteles se emplea una gran variedad de siglas, abreviaturas y símbolos como herramientas operativas para indicar el estado de las habitaciones, la ocupación, las tarifas, los servicios especiales o las condiciones específicas de un huésped. Generalmente, estas convenciones se representan mediante una letra o un conjunto de letras que permiten identificar rápidamente si una habitación se encuentra libre, ocupada, en salida, bloqueada o en proceso de revisión, entre otros estados. El uso adecuado de estas convenciones facilita la comunicación interna entre los distintos departamentos, optimiza la gestión de las reservas y contribuye a una atención más eficiente y organizada, alineada con los protocolos y procedimientos técnicos del servicio hotelero.
+        p.mb-3 En los hoteles se emplea una gran variedad de siglas, abreviaturas y símbolos como herramientas operativas para indicar el estado de las habitaciones, la ocupación, las tarifas, los servicios especiales o las condiciones específicas de un huésped. Generalmente, estas convenciones se representan mediante una letra o un conjunto de letras que permiten identificar rápidamente si una habitación se encuentra libre, ocupada, en salida, bloqueada o en proceso de revisión, entre otros estados. 
+        p.mb-0 El uso adecuado de estas convenciones facilita la comunicación interna entre los distintos departamentos, optimiza la gestión de las reservas y contribuye a una atención más eficiente y organizada, alineada con los protocolos y procedimientos técnicos del servicio hotelero.
 
 
-    p.mb-4 A continuación se ilustran algunos ejemplos de convenciones y siglas para indicar estado de la habitación:
+    p.mb-4 A continuación, se ilustran algunos ejemplos de convenciones y siglas para indicar estado de la habitación:
 
 
 
@@ -438,7 +439,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.bg-color-9.p-4
-          p.mb-0 Por esta razón, resulta fundamental que cada establecimiento documento y socialice sus propias convenciones, garantizando que todos los colaboradores las conozcan y apliquen de manera uniforme. El manejo adecuado de estas siglas contribuye a reducir errores, optimizar los procesos de recepción y reservas, y fortalecer la comunicación interna, elementos clave para la prestación de un servicio hotelero eficiente y de calidad. 
+          p.mb-0 Por esta razón, resulta fundamental que cada establecimiento documente y socialice sus propias convenciones, garantizando que todos los colaboradores las conozcan y apliquen de manera uniforme. El manejo adecuado de estas siglas contribuye a reducir errores, optimizar los procesos de recepción y reservas, y fortalecer la comunicación interna, elementos clave para la prestación de un servicio hotelero eficiente y de calidad. 
 
 
 

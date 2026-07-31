@@ -57,7 +57,7 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: 'Tipos de alojamiento y hospedaje',
+            titulo: 'Tipos de alojamiento y hospedajes',
             hash: 't_2_2',
           },
         ],

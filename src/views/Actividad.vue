@@ -17,7 +17,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Reconociendo los fundamentos de la industria hotelera',
+      tema: 'Reconociendo los fundamentos de la industria hotelera.',
       titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> evaluar la comprensión del aprendiz sobre los conceptos fundamentales de la industria hotelera, su evolución, estructura organizacional, normativa básica y terminología técnica, mediante la identificación correcta de enunciados, fortaleciendo la apropiación conceptual necesaria para el desempeño en el contexto técnico profesional del sector alojamiento y hospedaje.',
@@ -65,22 +65,23 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'El desarrollo del turismo y los cambios sociales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'La desaparición del transporte.',
+              texto: 'Porque todos utilizan la misma clasificación.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Porque la normativa y la clasificación turística varían según cada país.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'La eliminación de los servicios de hospedaje.',
+              texto: 'Porque no existe regulación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'La reducción de los viajes internacionales.',
+              texto: 'Porque dependen únicamente del idioma.',
               esCorrecta: false,
             },
           ],
@@ -154,7 +155,7 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cuál de las siguientes funciones corresponde al departamento de recepción?',
+            '¿Cuál de los siguientes funciones corresponde al departamento de recepción?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -186,29 +187,29 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué aportan los servicios complementarios a un establecimiento hotelero?',
+            '¿Qué aportan los servicios complementarios a un establecimiento o hotelero?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Incrementan únicamente los costos.',
+              texto: 'Incrementa únicamente los costos.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Mejoran la experiencia del huésped y generan valor agregado.',
+                'Mejora la experiencia del huésped y generan valor agregado.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Eliminan la necesidad del alojamiento.',
+              texto: 'Eliminar la necesidad del alojamiento.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Sustituyen el servicio de recepción.',
+              texto: 'Sustituye el servicio de recepción.',
               esCorrecta: false,
             },
           ],
@@ -256,7 +257,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Solo sirve para decorar el establecimiento.',
+              texto: 'Sólo sirve para decorar el establecimiento.',
               esCorrecta: false,
             },
             {
@@ -272,7 +273,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Solo interesa al área de mantenimiento.',
+              texto: 'Sólo interesa al área de mantenimiento.',
               esCorrecta: false,
             },
           ],
@@ -320,7 +321,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Son obligatorias y universales en todos los hoteles.',
+              texto: 'Son obligatorias y universales en todos los hoteles',
               esCorrecta: false,
             },
             {
@@ -331,7 +332,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Solo se utilizan en hoteles cinco estrellas.',
+              texto: 'Sólo se utilizan en hoteles cinco estrellas.',
               esCorrecta: false,
             },
             {
@@ -345,8 +346,7 @@ export default {
         },
         {
           id: 11,
-          texto:
-            '¿Cuál es la función principal del área de <em>housekeeping</em>?',
+          texto: '¿Cuál es la función principal del área de housekeeping?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -372,8 +372,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
@@ -402,8 +404,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
@@ -413,7 +417,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Porque solo aplica a hoteles internacionales.',
+              texto: 'Porque sólo aplica a hoteles internacionales.',
               esCorrecta: false,
             },
             {
@@ -428,16 +432,18 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Porque elimina las auditorías.',
+              texto: 'Porque eliminan las auditorías.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto: '¿Cuál es una característica de la hotelería moderna?',
+          texto: '¿Cuál es la característica de la hotelería moderna?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -463,8 +469,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
@@ -495,13 +503,15 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
           texto:
-            '¿Cuál de los siguientes establecimientos hace parte del sector de alojamiento?',
+            '¿Cuáles de los siguientes establecimientos hace parte del sector de alojamiento?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -526,8 +536,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
@@ -557,13 +569,15 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
           texto:
-            '¿Cuál es uno de los objetivos de ofrecer un servicio de calidad en hotelería?',
+            '¿Cuál es uno de los objetivos de ejercer un servicio de calidad en hotelería?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -588,13 +602,15 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
           texto:
-            '¿Qué elemento hace parte de la terminología técnica utilizada en hotelería?',
+            '¿Qué elemento hace parte de la tecnología técnica utilizada en hotelería?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -619,8 +635,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
@@ -637,7 +655,7 @@ export default {
             {
               id: 'b',
               texto:
-                'Proporciona las bases para comprender la operación y prestar un servicio de calidad.',
+                'Proporciona las bases para comprender la operación y prestarnos un servicio de calidad.',
               esCorrecta: true,
             },
             {
@@ -651,12 +669,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre el tema.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente! ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        '¡Excelente! Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
