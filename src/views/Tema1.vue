@@ -76,7 +76,7 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-4")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0 Lo invitamos a abrir el siguiente enlace en el que se presenta un video que realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
+                p.mb-0 Lo invitamos a revisar el siguiente video, el cual realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://youtu.be/Xb_v7SyD4_0" target="_blank")
                   span Abrir enlace

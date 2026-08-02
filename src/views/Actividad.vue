@@ -187,7 +187,7 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué aportan los servicios complementarios a un establecimiento o hotelero?',
+            '¿Qué aportan los servicios complementarios a un establecimiento hotelero?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

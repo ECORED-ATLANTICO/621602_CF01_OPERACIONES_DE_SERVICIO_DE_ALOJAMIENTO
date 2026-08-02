@@ -289,12 +289,16 @@
                 td Tiendas o locales comerciales
                 td Espacios destinados a la venta de productos o servicios complementarios dentro del hotel.
               tr
-                td(rowspan="2") Servicios de apoyo a la movilidad
+                td(rowspan="3") Servicios de apoyo a la movilidad
                 td Transporte o traslados
                 td Servicio de traslado desde y hacia aeropuertos, terminales o puntos de interés.
               tr
                 td Custodia de vehículos
                 td Servicio de parqueadero o <i>valet parking</i> para huéspedes y visitantes.
+              tr
+                td Servicios de banquetes
+                td Prestación de alimentos y bebidas para eventos internos organizados por el hotel.
+
 
 
     .container
