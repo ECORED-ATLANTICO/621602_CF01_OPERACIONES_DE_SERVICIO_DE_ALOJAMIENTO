@@ -296,9 +296,6 @@
               tr
                 td Custodia de vehículos
                 td Servicio de parqueadero o <i>valet parking</i> para huéspedes y visitantes.
-              tr
-                td Servicios de banquetes
-                td Prestación de alimentos y bebidas para eventos internos organizados por el hotel.
 
 
 
