@@ -155,7 +155,7 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cuál de los siguientes funciones corresponde al departamento de recepción?',
+            '¿Cuál de las siguientes funciones corresponde al departamento de recepción?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -649,7 +649,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Solo sirve para desempeñar cargos administrativos.',
+              texto: 'Sólo sirve para desempeñar cargos administrativos.',
               esCorrecta: false,
             },
             {
@@ -665,7 +665,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Solo es útil para el área comercial.',
+              texto: 'Sólo es útil para el área comercial.',
               esCorrecta: false,
             },
           ],
