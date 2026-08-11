@@ -66,21 +66,19 @@
             .col-md-8.col-lg-4
               figure
                 img(src="@/assets/curso/tema1/img08.png", alt="").mx-auto
-  
 
     .row.justify-content-center.mb-5
-      .col-12.col-lg-10.mb-0.col-md-12
-        .cita-decorada
-          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-1-degrade.br-15
-            .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.mb-3.mb-lg-0
-                img(src="@/assets/curso/tema2/img02.svg", class="img-fluid cita-decorada__imagen-flotante-4")
-              .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0 Lo invitamos a revisar el siguiente video, el cual realiza un recorrido por la historia de la hotelería y su evolución a través del tiempo.
-              .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
-                a.boton.color-acento-botones(href="https://www.youtube.com/embed/UYsNuXu_99A?si=f5q_Wwwa0FkLYAqY" target="_blank")
-                  span Abrir enlace
-                  i.fas.fa-external-link-alt
+      //- .col-md-12.col-lg-12
+      //-   .titulo-sexto.color-acento-contenido
+      //-     h5 
+      //-       b Video 1.
+      //-     span Historia de la industria hotelera 
+      .col-md-12.col-lg-12
+        figure
+          .video.mb-2
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/UYsNuXu_99A?si=Sq_Lr0zovhMZ_gAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: Historia de la industria hotelera
+
 
     separador
     
@@ -327,7 +325,7 @@
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
                 p.mb-0 Lo invitamos a consultar en la sección de Anexos, el contenido completo de cada una de estas normas.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
-                a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos_ntsh.zip')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexos/NTSH.zip')" target="_blank")
                   span Abrir enlace
                   i.fas.fa-external-link-alt
     
